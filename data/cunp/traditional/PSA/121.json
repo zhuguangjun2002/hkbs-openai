@@ -1,0 +1,52 @@
+{
+  "version": "CUNP1",
+  "version_name": "新標點和合本(神)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 121,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PSA/121/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "我要向山舉目；我的幫助從何而來？",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "我的幫助從造天地的耶和華而來。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "他必不叫你的腳搖動；保護你的必不打盹！",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "保護以色列的，也不打盹也不睡覺。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "保護你的是耶和華；耶和華在你右邊蔭庇你。",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "白日，太陽必不傷你；夜間，月亮必不害你。",
+      "notes": []
+    },
+    {
+      "verse": 7,
+      "text": "耶和華要保護你，免受一切的災害；他要保護你的性命。",
+      "notes": []
+    },
+    {
+      "verse": 8,
+      "text": "你出你入，耶和華要保護你，從今時直到永遠。",
+      "notes": []
+    }
+  ]
+}

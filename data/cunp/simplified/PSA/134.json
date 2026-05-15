@@ -1,0 +1,27 @@
+{
+  "version": "CUNP1s",
+  "version_name": "新标点和合本",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 134,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PSA/134/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "耶和华的仆人夜间站在耶和华殿中的，你们当称颂耶和华！",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "你们当向圣所举手，称颂耶和华！",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "愿造天地的耶和华，从锡安赐福给你们！",
+      "notes": []
+    }
+  ]
+}

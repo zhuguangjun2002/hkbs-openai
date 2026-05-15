@@ -1,0 +1,37 @@
+{
+  "version": "CUNP1",
+  "version_name": "新標點和合本(神)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 70,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PSA/70/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "神啊，求你快快搭救我！耶和華啊，求你速速幫助我！",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "願那些尋索我命的，抱愧蒙羞；願那些喜悅我遭害的，退後受辱。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "願那些對我說阿哈、阿哈的，因羞愧退後。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "願一切尋求你的，因你高興歡喜；願那些喜愛你救恩的，常說：當尊神為大！",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "但我是困苦窮乏的；神啊，求你速速到我這裏來！你是幫助我的，搭救我的。耶和華啊，求你不要耽延！",
+      "notes": []
+    }
+  ]
+}

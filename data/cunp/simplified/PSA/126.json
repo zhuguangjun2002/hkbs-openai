@@ -1,0 +1,42 @@
+{
+  "version": "CUNP1s",
+  "version_name": "新标点和合本",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 126,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PSA/126/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "当耶和华将那些被掳的带回锡安的时候，我们好像做梦的人。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "我们满口喜笑、满舌欢呼的时候，外邦中就有人说：耶和华为他们行了大事！",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "耶和华果然为我们行了大事，我们就欢喜。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "耶和华啊，求你使我们被掳的人归回，好像南地的河水复流。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "流泪撒种的，必欢呼收割！",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "那带种流泪出去的，必要欢欢乐乐地带禾捆回来！",
+      "notes": []
+    }
+  ]
+}

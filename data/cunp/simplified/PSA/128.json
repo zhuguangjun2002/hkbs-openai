@@ -1,0 +1,42 @@
+{
+  "version": "CUNP1s",
+  "version_name": "新标点和合本",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 128,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PSA/128/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "凡敬畏耶和华、遵行他道的人便为有福！",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "你要吃劳碌得来的；你要享福，事情顺利。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "你妻子在你的内室，好像多结果子的葡萄树；你儿女围绕你的桌子，好像橄榄栽子。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "看哪，敬畏耶和华的人必要这样蒙福！",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "愿耶和华从锡安赐福给你！愿你一生一世看见耶路撒冷的好处！",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "愿你看见你儿女的儿女！愿平安归于以色列！",
+      "notes": []
+    }
+  ]
+}

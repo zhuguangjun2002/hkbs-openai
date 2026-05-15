@@ -1,0 +1,52 @@
+{
+  "version": "CUNP1",
+  "version_name": "新標點和合本(神)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 130,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PSA/130/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "耶和華啊，我從深處向你求告！",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "主啊，求你聽我的聲音！願你側耳聽我懇求的聲音！",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "主－耶和華啊，你若究察罪孽，誰能站得住呢？",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "但在你有赦免之恩，要叫人敬畏你。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "我等候耶和華，我的心等候；我也仰望他的話。",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "我的心等候主，勝於守夜的，等候天亮，勝於守夜的，等候天亮。",
+      "notes": []
+    },
+    {
+      "verse": 7,
+      "text": "以色列啊，你當仰望耶和華！因他有慈愛，有豐盛的救恩。",
+      "notes": []
+    },
+    {
+      "verse": 8,
+      "text": "他必救贖以色列脫離一切的罪孽。",
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "CUNP1s",
+  "version_name": "新标点和合本",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 127,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PSA/127/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "若不是耶和华建造房屋，建造的人就枉然劳力；若不是耶和华看守城池，看守的人就枉然警醒。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "你们清晨早起，夜晚安歇，吃劳碌得来的饭，本是枉然；惟有耶和华所亲爱的，必叫他安然睡觉。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "儿女是耶和华所赐的产业；所怀的胎是他所给的赏赐。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "少年时所生的儿女好像勇士手中的箭。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "箭袋充满的人便为有福；他们在城门口和仇敌说话的时候，必不至于羞愧。",
+      "notes": []
+    }
+  ]
+}

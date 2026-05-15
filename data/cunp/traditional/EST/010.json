@@ -1,0 +1,27 @@
+{
+  "version": "CUNP1",
+  "version_name": "新標點和合本(神)",
+  "script": "traditional",
+  "book_code": "EST",
+  "book_name": "以斯帖記",
+  "chapter": 10,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1/EST/10/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "亞哈隨魯王使旱地和海島的人民都進貢。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "他以權柄能力所行的，並他抬舉末底改使他高升的事，豈不都寫在米底亞和波斯王的歷史上嗎？",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "猶大人末底改作亞哈隨魯王的宰相，在猶大人中為大，得他眾弟兄的喜悅，為本族的人求好處，向他們說和平的話。",
+      "notes": []
+    }
+  ]
+}

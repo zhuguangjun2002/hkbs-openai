@@ -1,0 +1,27 @@
+{
+  "version": "CUNP1",
+  "version_name": "新標點和合本(神)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 134,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PSA/134/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "耶和華的僕人夜間站在耶和華殿中的，你們當稱頌耶和華！",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "你們當向聖所舉手，稱頌耶和華！",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "願造天地的耶和華，從錫安賜福給你們！",
+      "notes": []
+    }
+  ]
+}

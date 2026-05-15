@@ -1,0 +1,47 @@
+{
+  "version": "CUNP1",
+  "version_name": "新標點和合本(神)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 54,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PSA/54/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "神啊，求你以你的名救我，憑你的大能為我伸冤。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "神啊，求你聽我的禱告，留心聽我口中的言語。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "因為，外人起來攻擊我，強暴人尋索我的命；他們眼中沒有神。（細拉）",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "神是幫助我的，是扶持我命的。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "他要報應我仇敵所行的惡；求你憑你的誠實滅絕他們。",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "我要把甘心祭獻給你。耶和華啊，我要稱讚你的名；這名本為美好。",
+      "notes": []
+    },
+    {
+      "verse": 7,
+      "text": "他從一切的急難中把我救出來；我的眼睛也看見了我仇敵遭報。",
+      "notes": []
+    }
+  ]
+}

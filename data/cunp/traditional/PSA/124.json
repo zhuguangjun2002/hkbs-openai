@@ -1,0 +1,54 @@
+{
+  "version": "CUNP1",
+  "version_name": "新標點和合本(神)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 124,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PSA/124/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "以色列人要說：若不是耶和華幫助我們，",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "若不是耶和華幫助我們，當人起來攻擊我們、",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "向我們發怒的時候，就把我們活活地吞了。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "那時，波濤必漫過我們，河水必淹沒我們，",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "狂傲的水必淹沒我們。",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "耶和華是應當稱頌的！他沒有把我們當野食交給他們吞吃。",
+      "notes": [
+        "原文是牙齒"
+      ]
+    },
+    {
+      "verse": 7,
+      "text": "我們好像雀鳥，從捕鳥人的網羅裏逃脫；網羅破裂，我們逃脫了。",
+      "notes": []
+    },
+    {
+      "verse": 8,
+      "text": "我們得幫助，是在乎倚靠造天地之耶和華的名。",
+      "notes": []
+    }
+  ]
+}

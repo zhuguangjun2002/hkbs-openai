@@ -1,0 +1,27 @@
+{
+  "version": "CUNP1",
+  "version_name": "新標點和合本(神)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 133,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PSA/133/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "看哪，弟兄和睦同居是何等地善，何等地美！",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "這好比那貴重的油澆在亞倫的頭上，流到鬍鬚，又流到他的衣襟；",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "又好比黑門的甘露降在錫安山；因為在那裏有耶和華所命定的福，就是永遠的生命。",
+      "notes": []
+    }
+  ]
+}

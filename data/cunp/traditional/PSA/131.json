@@ -1,0 +1,27 @@
+{
+  "version": "CUNP1",
+  "version_name": "新標點和合本(神)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 131,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PSA/131/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "耶和華啊，我的心不狂傲，我的眼不高大；重大和測不透的事，我也不敢行。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "我的心平穩安靜，好像斷過奶的孩子在他母親的懷中；我的心在我裏面真像斷過奶的孩子。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "以色列啊，你當仰望耶和華，從今時直到永遠！",
+      "notes": []
+    }
+  ]
+}

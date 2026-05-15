@@ -1,0 +1,49 @@
+{
+  "version": "CUNP1",
+  "version_name": "新標點和合本(神)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 120,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PSA/120/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "我在急難中求告耶和華，他就應允我。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "耶和華啊，求你救我脫離說謊的嘴唇和詭詐的舌頭！",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "詭詐的舌頭啊，要給你甚麼呢？要拿甚麼加給你呢？",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "就是勇士的利箭和羅騰木 的炭火。",
+      "notes": [
+        "小樹名，松類"
+      ]
+    },
+    {
+      "verse": 5,
+      "text": "我寄居在米設，住在基達帳棚之中，有禍了！",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "我與那恨惡和睦的人許久同住。",
+      "notes": []
+    },
+    {
+      "verse": 7,
+      "text": "我願和睦，但我發言，他們就要爭戰。",
+      "notes": []
+    }
+  ]
+}

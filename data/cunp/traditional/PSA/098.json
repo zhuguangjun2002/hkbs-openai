@@ -1,0 +1,57 @@
+{
+  "version": "CUNP1",
+  "version_name": "新標點和合本(神)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 98,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PSA/98/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "你們要向耶和華唱新歌！因為他行過奇妙的事；他的右手和聖臂施行救恩。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "耶和華發明了他的救恩，在列邦人眼前顯出公義；",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "記念他向以色列家所發的慈愛，所憑的信實。地的四極都看見我們神的救恩。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "全地都要向耶和華歡樂；要發起大聲，歡呼歌頌！",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "要用琴歌頌耶和華，用琴和詩歌的聲音歌頌他！",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "用號和角聲，在大君王耶和華面前歡呼！",
+      "notes": []
+    },
+    {
+      "verse": 7,
+      "text": "願海和其中所充滿的澎湃；世界和住在其間的也要發聲。",
+      "notes": []
+    },
+    {
+      "verse": 8,
+      "text": "願大水拍手；願諸山在耶和華面前一同歡呼；",
+      "notes": []
+    },
+    {
+      "verse": 9,
+      "text": "因為他來要審判遍地。他要按公義審判世界，按公正審判萬民。",
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "CUNP1s",
+  "version_name": "新标点和合本",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 117,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PSA/117/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "万国啊，你们都当赞美耶和华！万民哪，你们都当颂赞他！",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "因为他向我们大施慈爱；耶和华的诚实存到永远。你们要赞美耶和华！",
+      "notes": []
+    }
+  ]
+}

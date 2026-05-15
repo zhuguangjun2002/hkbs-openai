@@ -1,0 +1,44 @@
+{
+  "version": "CUNP1s",
+  "version_name": "新标点和合本",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 8,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PSA/8/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "耶和华—我们的主啊，你的名在全地何其美！你将你的荣耀彰显于天。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "你因敌人的缘故，从婴孩和吃奶的口中，建立了能力，使仇敌和报仇的闭口无言。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "我观看你指头所造的天，并你所陈设的月亮星宿，",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "便说：人算什么，你竟顾念他！世人算什么，你竟眷顾他！",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "你叫他比天使微小一点，并赐他荣耀尊贵为冠冕。",
+      "notes": [
+        "或译：神"
+      ]
+    },
+    {
+      "verse": 9,
+      "text": "耶和华—我们的主啊，你的名在全地何其美！",
+      "notes": []
+    }
+  ]
+}

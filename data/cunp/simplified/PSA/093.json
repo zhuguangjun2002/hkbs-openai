@@ -1,0 +1,37 @@
+{
+  "version": "CUNP1s",
+  "version_name": "新标点和合本",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 93,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PSA/93/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "耶和华作王！他以威严为衣穿上；耶和华以能力为衣，以能力束腰，世界就坚定，不得动摇。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "你的宝座从太初立定；你从亘古就有。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "耶和华啊，大水扬起，大水发声，波浪澎湃。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "耶和华在高处大有能力，胜过诸水的响声，洋海的大浪。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "耶和华啊，你的法度最的确；你的殿永称为圣，是合宜的。",
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": "CUNP1",
+  "version_name": "新標點和合本(神)",
+  "script": "traditional",
+  "book_code": "ISA",
+  "book_name": "以賽亞書",
+  "chapter": 4,
+  "heading": "聆聽",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1/ISA/4/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "在那日，七個女人必拉住一個男人，說：「我們吃自己的食物，穿自己的衣服，但求你許我們歸你名下；求你除掉我們的羞恥。」",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "到那日，耶和華發生的苗必華美尊榮，地的出產必為以色列逃脫的人顯為榮華茂盛。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "耶和華也必在錫安全山，並各會眾以上，使白日有煙雲，黑夜有火焰的光。因為在全榮耀之上必有遮蔽。",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "必有亭子，白日可以得蔭避暑，也可以作為藏身之處，躲避狂風暴雨。",
+      "notes": []
+    }
+  ]
+}
