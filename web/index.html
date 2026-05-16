@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>和合本新标点读经</title>
+    <link rel="stylesheet" href="styles.css?v=20260516-1">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="书卷">
+        <div class="brand">
+          <div>
+            <p class="eyebrow">CUNP</p>
+            <h1>和合本新标点</h1>
+          </div>
+          <button class="icon-button" id="themeToggle" type="button" title="切换明暗模式" aria-label="切换明暗模式">◐</button>
+        </div>
+
+        <div class="script-switch" role="group" aria-label="简繁切换">
+          <button id="simplifiedBtn" type="button" data-script="simplified">简体</button>
+          <button id="traditionalBtn" type="button" data-script="traditional">繁體</button>
+        </div>
+
+        <label class="search-box">
+          <span>搜索</span>
+          <input id="searchInput" type="search" placeholder="输入关键词或 约3:16">
+        </label>
+
+        <div class="search-meta" id="searchMeta">输入关键词搜索整本圣经</div>
+        <div class="search-results" id="searchResults" aria-live="polite"></div>
+
+        <div class="book-tabs" role="group" aria-label="约别">
+          <button class="active" type="button" data-testament="all">全部</button>
+          <button type="button" data-testament="old">旧约</button>
+          <button type="button" data-testament="new">新约</button>
+        </div>
+        <nav class="book-list" id="bookList"></nav>
+      </aside>
+
+      <main class="reader">
+        <header class="reader-toolbar">
+          <div class="selectors">
+            <label>
+              <span>书卷</span>
+              <select id="bookSelect"></select>
+            </label>
+            <label>
+              <span>章节</span>
+              <select id="chapterSelect"></select>
+            </label>
+          </div>
+          <div class="chapter-actions">
+            <button id="prevChapter" type="button">上一章</button>
+            <button id="nextChapter" type="button">下一章</button>
+          </div>
+        </header>
+
+        <article class="chapter-card">
+          <div class="chapter-heading">
+            <p id="versionName">新标点和合本</p>
+            <h2 id="chapterTitle"></h2>
+            <span id="chapterSubtitle"></span>
+          </div>
+          <section class="verses" id="verses"></section>
+        </article>
+      </main>
+    </div>
+
+    <script src="data.js?v=20260516-1"></script>
+    <script src="app.js?v=20260516-1"></script>
+  </body>
+</html>

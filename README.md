@@ -66,6 +66,33 @@ Use JSON Lines instead of nested chapter JSON:
 python3 scripts/extract_hkbs_cunp.py --book PHP --chapter 1 --format jsonl
 ```
 
+## Static Web Reader
+
+This repo includes a small static reader in `web/` with:
+
+- chapter reading by book and chapter
+- simplified/traditional switching
+- full-text client-side search across simplified and traditional text
+- reference jump support such as `约3:16`, `約3:16`, `约3:16-18`, or `JHN3:16`
+
+Rebuild the browser data bundle after changing files under `data/cunp`:
+
+```bash
+python3 scripts/build_web_data.py
+```
+
+Preview locally:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open:
+
+```text
+http://localhost:8000/web/
+```
+
 ## Copyright
 
 Before bulk downloading, storing, or redistributing the text, check the HKBS
