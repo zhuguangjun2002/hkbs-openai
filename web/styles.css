@@ -106,7 +106,8 @@ h1 {
 }
 
 .script-switch,
-.book-tabs {
+.book-tabs,
+.search-scope {
   display: grid;
   gap: 8px;
 }
@@ -117,13 +118,15 @@ h1 {
 }
 
 .script-switch button,
-.book-tabs button {
+.book-tabs button,
+.search-scope button {
   min-height: 38px;
   font-family: ui-sans-serif, system-ui, sans-serif;
 }
 
 .script-switch button.active,
 .book-tabs button.active,
+.search-scope button.active,
 .book-list button.active {
   border-color: var(--accent);
   background: var(--accent-soft);
@@ -148,6 +151,17 @@ select {
   background: var(--panel);
   color: var(--text);
   padding: 0 12px;
+}
+
+.search-scope {
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 8px;
+}
+
+.search-scope button {
+  min-height: 32px;
+  padding: 0 6px;
+  font-size: 13px;
 }
 
 .search-meta {

@@ -5,6 +5,7 @@
     book: localStorage.getItem("bible-book") || "JHN",
     chapter: Number(localStorage.getItem("bible-chapter") || 3),
     testament: "all",
+    searchScope: localStorage.getItem("bible-search-scope") || "all",
     query: "",
     activeSearch: "",
   };
@@ -28,6 +29,12 @@
 
   const bookByCode = new Map(data.books.map((book) => [book.code, book]));
   const bookAliases = buildBookAliases();
+  const searchScopeLabels = {
+    all: "整本圣经",
+    old: "旧约",
+    new: "新约",
+    book: "当前书卷",
+  };
   let searchTimer = 0;
 
   function bookName(book, script = state.script) {
@@ -141,6 +148,7 @@
     localStorage.setItem("bible-script", state.script);
     localStorage.setItem("bible-book", state.book);
     localStorage.setItem("bible-chapter", String(state.chapter));
+    localStorage.setItem("bible-search-scope", state.searchScope);
   }
 
   function escapeHtml(value) {
@@ -211,6 +219,9 @@
   function renderScriptButtons() {
     document.querySelectorAll("[data-script]").forEach((button) => {
       button.classList.toggle("active", button.dataset.script === state.script);
+    });
+    document.querySelectorAll("[data-search-scope]").forEach((button) => {
+      button.classList.toggle("active", button.dataset.searchScope === state.searchScope);
     });
     document.documentElement.lang = state.script === "simplified" ? "zh-Hans" : "zh-Hant";
   }
@@ -338,9 +349,17 @@
     return { book: book.code, chapter, verse, endVerse };
   }
 
+  function booksForSearch() {
+    if (state.searchScope === "book") return [bookByCode.get(state.book)];
+    if (state.searchScope === "old" || state.searchScope === "new") {
+      return data.books.filter((book) => book.testament === state.searchScope);
+    }
+    return data.books;
+  }
+
   function searchVerses(query) {
     const results = [];
-    for (const book of data.books) {
+    for (const book of booksForSearch()) {
       for (let chapter = 1; chapter <= book.chapters; chapter += 1) {
         for (const verse of chapterData(book.code, chapter).verses) {
           if (searchHit(book.code, chapter, verse, query)) {
@@ -356,7 +375,7 @@
   function runSearch() {
     const query = state.query.trim();
     if (!query) {
-      els.searchMeta.textContent = "输入简体或繁体关键词搜索整本圣经";
+      els.searchMeta.textContent = `输入简体或繁体关键词搜索${searchScopeLabels[state.searchScope]}`;
       els.searchResults.innerHTML = "";
       return;
     }
@@ -373,7 +392,8 @@
     }
 
     const results = searchVerses(query);
-    els.searchMeta.textContent = results.length ? `显示前 ${results.length} 条结果` : "没有找到匹配经文";
+    const scopeLabel = searchScopeLabels[state.searchScope];
+    els.searchMeta.textContent = results.length ? `${scopeLabel}：显示前 ${results.length} 条结果` : `${scopeLabel}：没有找到匹配经文`;
     els.searchResults.innerHTML = results.map(({ book, chapter, verse }) => `
       <button class="result-item" type="button" data-book="${book.code}" data-chapter="${chapter}" data-verse="${verse.n}" data-search-query="${escapeHtml(query)}">
         <span class="result-ref">${bookName(book)} ${chapter}:${verse.n}</span>
@@ -386,6 +406,15 @@
     button.addEventListener("click", () => {
       state.script = button.dataset.script;
       renderAll();
+    });
+  });
+
+  document.querySelectorAll("[data-search-scope]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.searchScope = button.dataset.searchScope;
+      saveState();
+      renderScriptButtons();
+      runSearch();
     });
   });
 

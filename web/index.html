@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>和合本新标点读经</title>
-    <link rel="stylesheet" href="styles.css?v=20260516-1">
+    <link rel="stylesheet" href="styles.css?v=20260516-2">
   </head>
   <body>
     <div class="app-shell">
@@ -26,6 +26,13 @@
           <span>搜索</span>
           <input id="searchInput" type="search" placeholder="输入关键词或 约3:16">
         </label>
+
+        <div class="search-scope" role="group" aria-label="搜索范围">
+          <button class="active" type="button" data-search-scope="all">全部</button>
+          <button type="button" data-search-scope="old">旧约</button>
+          <button type="button" data-search-scope="new">新约</button>
+          <button type="button" data-search-scope="book">本卷</button>
+        </div>
 
         <div class="search-meta" id="searchMeta">输入关键词搜索整本圣经</div>
         <div class="search-results" id="searchResults" aria-live="polite"></div>
@@ -67,7 +74,7 @@
       </main>
     </div>
 
-    <script src="data.js?v=20260516-1"></script>
-    <script src="app.js?v=20260516-1"></script>
+    <script src="data.js?v=20260516-2"></script>
+    <script src="app.js?v=20260516-2"></script>
   </body>
 </html>
