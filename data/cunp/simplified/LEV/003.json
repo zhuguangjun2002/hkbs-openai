@@ -6,7 +6,7 @@
   "book_code": "LEV",
   "book_name": "利未记",
   "chapter": 3,
-  "heading": "聆聽",
+  "heading": "平安祭的条例",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/LEV/3/",
   "verses": [
     {
@@ -74,6 +74,12 @@
     {
       "verse": 13,
       "text": "要按手在山羊头上，宰于会幕前。亚伦的子孙要把血洒在坛的周围，",
+      "notes": []
+    },
+    {
+      "verse": 14,
+      "verse_end": 15,
+      "text": "又把盖脏的脂油和脏上所有的脂油，两个腰子和腰子上的脂油，就是靠腰两旁的脂油，并肝上的网子和腰子，一概取下，献给耶和华为火祭。",
       "notes": []
     },
     {

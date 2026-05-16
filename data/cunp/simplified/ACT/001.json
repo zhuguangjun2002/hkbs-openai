@@ -6,7 +6,7 @@
   "book_code": "ACT",
   "book_name": "使徒行传",
   "chapter": 1,
-  "heading": "聆聽",
+  "heading": "赐圣灵的应许",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/ACT/1/",
   "verses": [
     {
@@ -124,6 +124,12 @@
     {
       "verse": 23,
       "text": "于是选举两个人，就是那叫做巴撒巴，又称呼犹士都的约瑟，和马提亚。",
+      "notes": []
+    },
+    {
+      "verse": 24,
+      "verse_end": 25,
+      "text": "众人就祷告说：「主啊，你知道万人的心，求你从这两个人中，指明你所拣选的是谁，叫他得这使徒的位分。这位分犹大已经丢弃，往自己的地方去了。」",
       "notes": []
     },
     {

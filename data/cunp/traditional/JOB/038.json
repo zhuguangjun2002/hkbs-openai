@@ -6,7 +6,7 @@
   "book_code": "JOB",
   "book_name": "約伯記",
   "chapter": 38,
-  "heading": "聆聽",
+  "heading": "耶和華回答約伯",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/JOB/38/",
   "verses": [
     {
@@ -191,6 +191,18 @@
     {
       "verse": 36,
       "text": "誰將智慧放在懷中？誰將聰明賜於心內？",
+      "notes": []
+    },
+    {
+      "verse": 37,
+      "verse_end": 38,
+      "text": "誰能用智慧數算雲彩呢？塵土聚集成團，土塊緊緊結連；那時，誰能傾倒天上的瓶呢？",
+      "notes": []
+    },
+    {
+      "verse": 39,
+      "verse_end": 40,
+      "text": "母獅子在洞中蹲伏，少壯獅子在隱密處埋伏；你能為牠們抓取食物，使牠們飽足嗎？",
       "notes": []
     },
     {

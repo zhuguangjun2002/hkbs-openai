@@ -6,7 +6,7 @@
   "book_code": "PSA",
   "book_name": "詩篇",
   "chapter": 49,
-  "heading": "聆聽",
+  "heading": "恃財之愚",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PSA/49/",
   "verses": [
     {
@@ -42,6 +42,12 @@
     {
       "verse": 7,
       "text": "一個也無法贖自己的弟兄，也不能替他將贖價給神，",
+      "notes": []
+    },
+    {
+      "verse": 8,
+      "verse_end": 9,
+      "text": "叫他長遠活著，不見朽壞；因為贖他生命的價值極貴，只可永遠罷休。",
       "notes": []
     },
     {

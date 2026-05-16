@@ -6,7 +6,7 @@
   "book_code": "PRO",
   "book_name": "箴言",
   "chapter": 26,
-  "heading": "聆聽",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PRO/26/",
   "verses": [
     {
@@ -95,6 +95,14 @@
       "verse": 17,
       "text": "過路被事激動，管理不干己的爭競，好像人揪住狗耳。",
       "notes": []
+    },
+    {
+      "verse": 18,
+      "verse_end": 19,
+      "text": "人欺凌鄰舍，卻說：我豈不是戲耍嗎？他就像瘋狂的人拋擲火把、利箭，與殺人的兵器。",
+      "notes": [
+        "原文是死亡"
+      ]
     },
     {
       "verse": 20,

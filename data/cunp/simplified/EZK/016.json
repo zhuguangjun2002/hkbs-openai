@@ -6,7 +6,7 @@
   "book_code": "EZK",
   "book_name": "以西结书",
   "chapter": 16,
-  "heading": "聆聽",
+  "heading": "不忠实的耶路撒冷",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/EZK/16/",
   "verses": [
     {
@@ -286,6 +286,12 @@
     {
       "verse": 55,
       "text": "你的妹妹所多玛和她的众女必归回原位；撒马利亚和她的众女，你和你的众女，也必归回原位。",
+      "notes": []
+    },
+    {
+      "verse": 56,
+      "verse_end": 57,
+      "text": "在你骄傲的日子，你的恶行没有显露以先，你的口就不提你的妹妹所多玛。那受了凌辱的亚兰众女和亚兰四围非利士的众女都恨恶你，藐视你。",
       "notes": []
     },
     {

@@ -6,12 +6,18 @@
   "book_code": "EPH",
   "book_name": "以弗所书",
   "chapter": 6,
-  "heading": "聆聽",
+  "heading": "儿女和父母",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/EPH/6/",
   "verses": [
     {
       "verse": 1,
       "text": "你们作儿女的，要在主里听从父母，这是理所当然的。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "verse_end": 3,
+      "text": "「要孝敬父母，使你得福，在世长寿。」这是第一条带应许的诫命。",
       "notes": []
     },
     {

@@ -6,7 +6,7 @@
   "book_code": "DEU",
   "book_name": "申命記",
   "chapter": 29,
-  "heading": "聆聽",
+  "heading": "在摩押跟以色列人立約",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/DEU/29/",
   "verses": [
     {
@@ -53,6 +53,14 @@
       "verse": 9,
       "text": "所以你們要謹守遵行這約的話，好叫你們在一切所行的事上亨通。",
       "notes": []
+    },
+    {
+      "verse": 10,
+      "verse_end": 11,
+      "text": "「今日，你們的首領、族長、長老、官長、以色列的男丁，你們的妻子兒女，和營中寄居的，以及為你們劈柴挑水的人，都站在耶和華－你們的神面前，",
+      "notes": [
+        "原文是支派"
+      ]
     },
     {
       "verse": 12,

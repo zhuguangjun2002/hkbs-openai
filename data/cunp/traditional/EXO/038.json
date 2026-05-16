@@ -6,7 +6,7 @@
   "book_code": "EXO",
   "book_name": "出埃及記",
   "chapter": 38,
-  "heading": "聆聽",
+  "heading": "造燔祭壇",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/EXO/38/",
   "verses": [
     {
@@ -72,6 +72,12 @@
     {
       "verse": 13,
       "text": "院子的東面，寬五十肘。",
+      "notes": []
+    },
+    {
+      "verse": 14,
+      "verse_end": 15,
+      "text": "門這邊的帷子十五肘，那邊也是一樣。帷子的柱子三根，帶卯的座三個。在門的左右各有帷子十五肘，帷子的柱子三根，帶卯的座三個。",
       "notes": []
     },
     {

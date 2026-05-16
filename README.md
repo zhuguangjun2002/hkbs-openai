@@ -32,8 +32,11 @@ scripts:
 - `simplified`: 1189 chapter JSON files
 - total: 2378 chapter JSON files
 
-Verification on 2026-05-15 found no missing chapters, no invalid JSON files,
-and no empty verse arrays.
+Verification on 2026-05-17 found no missing chapters, no invalid JSON files,
+no empty verse arrays, no mismatched metadata, and no chapters whose first
+parsed verse starts after verse 1. The CUNP data has also been resynced from
+the HKBS source pages with the current parser, correcting chapter headings and
+restoring merged verse ranges that older extraction runs skipped.
 
 The `data/rcuv-shen` directory contains a complete per-chapter extraction for
 和合本2010（和修）（神版） in both scripts:
@@ -45,6 +48,40 @@ The `data/rcuv-shen` directory contains a complete per-chapter extraction for
 Verification on 2026-05-17 found no missing chapters, no invalid JSON files,
 no empty verse arrays, no mismatched metadata, and no chapters whose first
 parsed verse starts after verse 1.
+
+## JSON Schema
+
+Each chapter JSON file has this top-level shape:
+
+```json
+{
+  "translation": "cunp",
+  "version": "CUNP1s",
+  "version_name": "新标点和合本",
+  "script": "simplified",
+  "book_code": "GEN",
+  "book_name": "创世记",
+  "chapter": 1,
+  "heading": "神的创造",
+  "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/GEN/1/",
+  "verses": []
+}
+```
+
+Merged verse ranges from the HKBS source are represented by `verse_end` on the
+first verse in the range:
+
+```json
+{
+  "verse": 1,
+  "verse_end": 2,
+  "text": "...",
+  "notes": []
+}
+```
+
+Single verses omit `verse_end`. Gaps that remain without `verse_end` after
+source resync are source-level omitted verse numbers, not inferred ranges.
 
 ## Usage
 

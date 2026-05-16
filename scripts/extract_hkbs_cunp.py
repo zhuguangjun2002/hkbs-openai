@@ -125,6 +125,7 @@ BOOK_BY_CODE = {code: (traditional, simplified, chapters) for code, traditional,
 @dataclass
 class Verse:
     number: int
+    end: int | None
     text: str
     notes: list[str]
 
@@ -136,6 +137,7 @@ class ChapterParser(HTMLParser):
         self.in_verse_num = False
         self.in_verse_text = False
         self.current_num: int | None = None
+        self.current_end: int | None = None
         self.current_text: list[str] = []
         self.current_notes: list[str] = []
         self.heading_parts: list[str] = []
@@ -173,9 +175,11 @@ class ChapterParser(HTMLParser):
             self.heading_parts.append(data)
         elif self.in_verse_num:
             number = data.strip()
-            match = re.match(r"\d+", number)
+            match = re.match(r"(\d+)(?:\s*[-–—]\s*(\d+))?", number)
             if match:
-                self.current_num = int(match.group(0))
+                self.current_num = int(match.group(1))
+                if match.group(2):
+                    self.current_end = int(match.group(2))
         elif self.in_verse_text:
             self.current_text.append(data)
 
@@ -187,8 +191,9 @@ class ChapterParser(HTMLParser):
         if self.current_num is None:
             return
         text = normalize_text("".join(self.current_text))
-        self.verses.append(Verse(self.current_num, text, self.current_notes))
+        self.verses.append(Verse(self.current_num, self.current_end, text, self.current_notes))
         self.current_num = None
+        self.current_end = None
         self.current_text = []
         self.current_notes = []
 
@@ -296,11 +301,17 @@ def chapter_record(
         "chapter": chapter,
         "heading": heading,
         "source_url": url,
-        "verses": [
-            {"verse": verse.number, "text": verse.text, "notes": verse.notes}
-            for verse in verses
-        ],
+        "verses": [verse_record(verse) for verse in verses],
     }
+
+
+def verse_record(verse: Verse) -> dict:
+    record = {"verse": verse.number}
+    if verse.end is not None and verse.end != verse.number:
+        record["verse_end"] = verse.end
+    record["text"] = verse.text
+    record["notes"] = verse.notes
+    return record
 
 
 def write_record(record: dict, output: Path | None, fmt: str) -> None:

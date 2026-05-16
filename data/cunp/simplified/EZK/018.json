@@ -6,7 +6,7 @@
   "book_code": "EZK",
   "book_name": "以西结书",
   "chapter": 18,
-  "heading": "聆聽",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/EZK/18/",
   "verses": [
     {
@@ -52,6 +52,12 @@
     {
       "verse": 9,
       "text": "遵行我的律例，谨守我的典章，按诚实行事—这人是公义的，必定存活。这是主耶和华说的。",
+      "notes": []
+    },
+    {
+      "verse": 10,
+      "verse_end": 11,
+      "text": "「他若生一个儿子，作强盗，是流人血的，不行以上所说之善，反行其中之恶，乃在山上吃过祭偶像之物，并玷污邻舍的妻，",
       "notes": []
     },
     {

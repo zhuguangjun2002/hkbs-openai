@@ -6,7 +6,7 @@
   "book_code": "LUK",
   "book_name": "路加福音",
   "chapter": 21,
-  "heading": "聆聽",
+  "heading": "寡妇的奉献",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/LUK/21/",
   "verses": [
     {
@@ -149,6 +149,12 @@
     {
       "verse": 28,
       "text": "一有这些事，你们就当挺身昂首，因为你们得赎的日子近了。」",
+      "notes": []
+    },
+    {
+      "verse": 29,
+      "verse_end": 30,
+      "text": "耶稣又设比喻对他们说：「你们看无花果树和各样的树；它发芽的时候，你们一看见，自然晓得夏天近了。",
       "notes": []
     },
     {

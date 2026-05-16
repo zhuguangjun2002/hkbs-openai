@@ -6,7 +6,7 @@
   "book_code": "PSA",
   "book_name": "诗篇",
   "chapter": 76,
-  "heading": "聆聽",
+  "heading": "神是胜利者",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PSA/76/",
   "verses": [
     {
@@ -42,6 +42,12 @@
     {
       "verse": 7,
       "text": "惟独你是可畏的！你怒气一发，谁能在你面前站得住呢？",
+      "notes": []
+    },
+    {
+      "verse": 8,
+      "verse_end": 9,
+      "text": "你从天上使人听判断。神起来施行审判，要救地上一切谦卑的人；那时地就惧怕而静默。 （细拉）",
       "notes": []
     },
     {

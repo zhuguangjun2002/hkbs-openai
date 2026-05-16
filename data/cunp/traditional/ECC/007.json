@@ -6,7 +6,7 @@
   "book_code": "ECC",
   "book_name": "傳道書",
   "chapter": 7,
-  "heading": "聆聽",
+  "heading": "智愚之別",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/ECC/7/",
   "verses": [
     {
@@ -137,6 +137,12 @@
     {
       "verse": 26,
       "text": "我得知有等婦人比死還苦：她的心是網羅，手是鎖鍊。凡蒙神喜悅的人必能躲避她；有罪的人卻被她纏住了。",
+      "notes": []
+    },
+    {
+      "verse": 27,
+      "verse_end": 28,
+      "text": "傳道者說：「看哪，一千男子中，我找到一個正直人，但眾女子中，沒有找到一個。」我將這事一一比較，要尋求其理，我心仍要尋找，卻未曾找到。",
       "notes": []
     },
     {

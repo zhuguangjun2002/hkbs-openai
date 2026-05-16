@@ -6,12 +6,18 @@
   "book_code": "PSA",
   "book_name": "诗篇",
   "chapter": 92,
-  "heading": "聆聽",
+  "heading": "颂赞之诗",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PSA/92/",
   "verses": [
     {
       "verse": 1,
       "text": "称谢耶和华！歌颂你至高者的名！",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "verse_end": 3,
+      "text": "用十弦的乐器和瑟，用琴弹幽雅的声音，早晨传扬你的慈爱；每夜传扬你的信实。这本为美事。",
       "notes": []
     },
     {

@@ -6,7 +6,7 @@
   "book_code": "JOS",
   "book_name": "约书亚记",
   "chapter": 21,
-  "heading": "聆聽",
+  "heading": "利未人的城邑",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/JOS/21/",
   "verses": [
     {
@@ -47,6 +47,12 @@
     {
       "verse": 8,
       "text": "以色列人照着耶和华借摩西所吩咐的，将这些城邑和城邑的郊野，按阄分给利未人。",
+      "notes": []
+    },
+    {
+      "verse": 9,
+      "verse_end": 10,
+      "text": "从犹大支派、西缅支派的地业中，将以下所记的城给了利未支派哥辖宗族亚伦的子孙；因为给他们拈出头一阄，",
       "notes": []
     },
     {

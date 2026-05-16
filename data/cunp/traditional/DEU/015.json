@@ -6,7 +6,7 @@
   "book_code": "DEU",
   "book_name": "申命記",
   "chapter": 15,
-  "heading": "聆聽",
+  "heading": "安息年",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/DEU/15/",
   "verses": [
     {
@@ -22,6 +22,12 @@
     {
       "verse": 3,
       "text": "若借給外邦人，你可以向他追討；但借給你弟兄，無論是甚麼，你要鬆手豁免了。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "verse_end": 5,
+      "text": "你若留意聽從耶和華－你神的話，謹守遵行我今日所吩咐你這一切的命令，就必在你們中間沒有窮人了（在耶和華－你神所賜你為業的地上，耶和華必大大賜福與你。）",
       "notes": []
     },
     {

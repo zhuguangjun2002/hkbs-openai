@@ -6,7 +6,7 @@
   "book_code": "PSA",
   "book_name": "诗篇",
   "chapter": 63,
-  "heading": "聆聽",
+  "heading": "渴慕神",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PSA/63/",
   "verses": [
     {
@@ -27,6 +27,12 @@
     {
       "verse": 4,
       "text": "我还活的时候要这样称颂你；我要奉你的名举手。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "verse_end": 6,
+      "text": "我在床上记念你，在夜更的时候思想你；我的心就像饱足了骨髓肥油，我也要以欢乐的嘴唇赞美你。",
       "notes": []
     },
     {

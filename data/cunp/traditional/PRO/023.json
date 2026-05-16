@@ -6,7 +6,7 @@
   "book_code": "PRO",
   "book_name": "箴言",
   "chapter": 23,
-  "heading": "聆聽",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PRO/23/",
   "verses": [
     {
@@ -159,6 +159,12 @@
     {
       "verse": 30,
       "text": "就是那流連飲酒、常去尋找調和酒的人。",
+      "notes": []
+    },
+    {
+      "verse": 31,
+      "verse_end": 32,
+      "text": "酒發紅，在杯中閃爍，你不可觀看，雖然下咽舒暢，終久是咬你如蛇，刺你如毒蛇。",
       "notes": []
     },
     {

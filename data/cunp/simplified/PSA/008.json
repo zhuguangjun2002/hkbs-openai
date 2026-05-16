@@ -6,7 +6,7 @@
   "book_code": "PSA",
   "book_name": "诗篇",
   "chapter": 8,
-  "heading": "聆聽",
+  "heading": "神的荣耀和人的尊贵",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PSA/8/",
   "verses": [
     {
@@ -35,6 +35,12 @@
       "notes": [
         "或译：神"
       ]
+    },
+    {
+      "verse": 6,
+      "verse_end": 8,
+      "text": "你派他管理你手所造的，使万物，就是一切的牛羊、田野的兽、空中的鸟、海里的鱼，凡经行海道的，都服在他的脚下。",
+      "notes": []
     },
     {
       "verse": 9,

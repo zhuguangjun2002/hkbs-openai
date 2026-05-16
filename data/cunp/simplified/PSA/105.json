@@ -6,7 +6,7 @@
   "book_code": "PSA",
   "book_name": "诗篇",
   "chapter": 105,
-  "heading": "聆聽",
+  "heading": "神和他的子民",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PSA/105/",
   "verses": [
     {
@@ -27,6 +27,12 @@
     {
       "verse": 4,
       "text": "要寻求耶和华与他的能力，时常寻求他的面。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "verse_end": 6,
+      "text": "他仆人亚伯拉罕的后裔，他所拣选雅各的子孙哪，你们要记念他奇妙的作为和他的奇事，并他口中的判语。",
       "notes": []
     },
     {

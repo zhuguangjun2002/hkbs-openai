@@ -6,7 +6,7 @@
   "book_code": "PSA",
   "book_name": "诗篇",
   "chapter": 49,
-  "heading": "聆聽",
+  "heading": "恃财之愚",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PSA/49/",
   "verses": [
     {
@@ -42,6 +42,12 @@
     {
       "verse": 7,
       "text": "一个也无法赎自己的弟兄，也不能替他将赎价给神，",
+      "notes": []
+    },
+    {
+      "verse": 8,
+      "verse_end": 9,
+      "text": "叫他长远活着，不见朽坏；因为赎他生命的价值极贵，只可永远罢休。",
       "notes": []
     },
     {

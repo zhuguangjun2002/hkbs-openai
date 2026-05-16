@@ -6,7 +6,7 @@
   "book_code": "JOB",
   "book_name": "約伯記",
   "chapter": 10,
-  "heading": "聆聽",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/JOB/10/",
   "verses": [
     {
@@ -102,6 +102,12 @@
     {
       "verse": 19,
       "text": "這樣，就如沒有我一般，一出母胎就被送入墳墓。",
+      "notes": []
+    },
+    {
+      "verse": 20,
+      "verse_end": 21,
+      "text": "我的日子不是甚少嗎？求你停手寬容我，叫我在往而不返之先－就是往黑暗和死蔭之地以先－可以稍得暢快。",
       "notes": []
     },
     {

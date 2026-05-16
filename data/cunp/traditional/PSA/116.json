@@ -6,7 +6,7 @@
   "book_code": "PSA",
   "book_name": "詩篇",
   "chapter": 116,
-  "heading": "聆聽",
+  "heading": "為出死入生而讚美神",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PSA/116/",
   "verses": [
     {
@@ -92,6 +92,12 @@
     {
       "verse": 17,
       "text": "我要以感謝為祭獻給你，又要求告耶和華的名。",
+      "notes": []
+    },
+    {
+      "verse": 18,
+      "verse_end": 19,
+      "text": "我要在他眾民面前，在耶和華殿的院內，在耶路撒冷當中，向耶和華還我的願。你們要讚美耶和華！",
       "notes": []
     }
   ]
