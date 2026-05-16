@@ -5,9 +5,14 @@
   "book_code": "PSA",
   "book_name": "詩篇",
   "chapter": 135,
-  "heading": "聆聽",
+  "heading": "稱頌的聖詩",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PSA/135/",
   "verses": [
+    {
+      "verse": 1,
+      "text": "你們要讚美耶和華！你們要讚美耶和華的名！耶和華的僕人站在耶和華殿中；站在我們神殿院中的，你們要讚美他！",
+      "notes": []
+    },
     {
       "verse": 3,
       "text": "你們要讚美耶和華！耶和華本為善；要歌頌他的名，因為這是美好的。",

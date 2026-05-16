@@ -5,9 +5,14 @@
   "book_code": "LUK",
   "book_name": "路加福音",
   "chapter": 1,
-  "heading": "聆聽",
+  "heading": "写给提阿非罗",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/LUK/1/",
   "verses": [
+    {
+      "verse": 1,
+      "text": "提阿非罗大人哪，有好些人提笔作书，述说在我们中间所成就的事，是照传道的人从起初亲眼看见又传给我们的。",
+      "notes": []
+    },
     {
       "verse": 3,
       "text": "这些事我既从起头都详细考察了，就定意要按着次序写给你，",
