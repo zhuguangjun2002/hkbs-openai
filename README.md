@@ -68,12 +68,24 @@ python3 scripts/extract_hkbs_cunp.py --book PHP --chapter 1 --format jsonl
 
 ## Static Web Reader
 
-This repo includes a small static reader in `web/` with:
+This repo includes a static Bible reader and query tool in `web/`.
+
+Live site:
+
+```text
+https://zhuguangjun2002.github.io/hkbs-openai/
+```
+
+Features:
 
 - chapter reading by book and chapter
 - simplified/traditional switching
 - full-text client-side search across simplified and traditional text
+- cross-script highlighting, such as searching `亞歷山大` while reading simplified text
+- search scopes: whole Bible, Old Testament, New Testament, or current book
 - reference jump support such as `约3:16`, `約3:16`, `约3:16-18`, or `JHN3:16`
+- highlighted search terms after opening a search result
+- light/dark theme
 
 Rebuild the browser data bundle after changing files under `data/cunp`:
 
@@ -92,6 +104,10 @@ Then open:
 ```text
 http://localhost:8000/web/
 ```
+
+The site is deployed with GitHub Pages from `.github/workflows/pages.yml`.
+The workflow publishes the `web/` directory directly, so no npm install or
+build step is required.
 
 ## Copyright
 
