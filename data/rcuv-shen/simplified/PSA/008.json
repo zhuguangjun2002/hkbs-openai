@@ -1,0 +1,47 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1s",
+  "version_name": "和合本2010 (和修)（神版）",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 8,
+  "heading": "神的荣耀和人的尊贵",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/PSA/8/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "耶和华－我们的主啊，你的名在全地何其美！你将你的荣耀彰显于天。",
+      "notes": [
+        "“你将...天”：七十士译本是“你的荣耀高举于天”。"
+      ]
+    },
+    {
+      "verse": 2,
+      "text": "你因敌人的缘故，从孩童和吃奶的口中建立了能力，使仇敌和报仇的闭口无言。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "我观看你手指所造的天，并你所陈设的月亮星宿。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "人算什么，你竟顾念他！世人算什么，你竟眷顾他！",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "你使他比神微小一点，赐他荣耀尊贵为冠冕。",
+      "notes": [
+        "“神”或译“天使”；七十士译本是“天使”。"
+      ]
+    },
+    {
+      "verse": 9,
+      "text": "耶和华－我们的主啊，你的名在全地何其美！",
+      "notes": []
+    }
+  ]
+}

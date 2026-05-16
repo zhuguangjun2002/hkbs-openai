@@ -1,0 +1,40 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1s",
+  "version_name": "和合本2010 (和修)（神版）",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 43,
+  "heading": "流亡异乡者的祷告（二）",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/PSA/43/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "神啊，求你为我伸冤，向不虔诚的国为我辩护；求你救我脱离诡诈不义的人。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "你是作我保障的神，为何丢弃我呢？我为何因仇敌的欺压时常哀痛呢？",
+      "notes": [
+        "“作我保障”：七十士译本是“赐我力量”。"
+      ]
+    },
+    {
+      "verse": 3,
+      "text": "求你发出你的亮光和信实，好引导我，带我到你的圣山，到你的居所！",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "我就走到神的祭坛，到赐我喜乐的神那里。神，我的神啊，我要弹琴称谢你！",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "我的心哪，你为何忧闷？为何在我里面烦躁？应当仰望神，我还要称谢他，我当面的拯救，我的神。",
+      "notes": []
+    }
+  ]
+}

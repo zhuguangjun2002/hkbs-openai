@@ -1,0 +1,38 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1s",
+  "version_name": "和合本2010 (和修)（神版）",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 93,
+  "heading": "神是王",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/PSA/93/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "耶和华作王！他以威严为衣穿上；耶和华以能力为衣，以能力束腰，世界就坚定，不得动摇。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "你的宝座从太初立定，你从亘古就有。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "耶和华啊，大水扬起，大水发声，大水澎湃。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "耶和华在高处大有威力，胜过诸水的响声，洋海的大浪。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "耶和华啊，你的法度最为确定；你的殿宜称为圣，直到永远。",
+      "notes": []
+    }
+  ]
+}

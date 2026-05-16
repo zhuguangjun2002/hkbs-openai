@@ -1,6 +1,7 @@
-# HKBS New Punctuation CUV Extractor
+# HKBS Chinese Bible Extractor
 
-This repository contains a small extractor for the HKBS online Bible pages.
+This repository contains a small extractor for the HKBS online Bible pages and
+the extracted per-chapter JSON data used by the static reader.
 
 The New Punctuation Chinese Union Version has two paths:
 
@@ -11,8 +12,16 @@ https://rcuv.hkbs.org.hk/CUNP1s/GEN/1/
 
 `CUNP1` is traditional Chinese. `CUNP1s` is simplified Chinese.
 
-The `RCUV1s` path in the example URL is the 2010 Revised Chinese Union Version
-simplified text, not the New Punctuation CUV.
+The 2010 Revised Chinese Union Version, Shen edition, has two paths:
+
+```text
+https://rcuv.hkbs.org.hk/RCUV1/GEN/1/
+https://rcuv.hkbs.org.hk/RCUV1s/GEN/1/
+```
+
+`RCUV1` is traditional Chinese. `RCUV1s` is simplified Chinese. These paths are
+the 和合本2010（和修）（神版） text. The related `RCUV2` paths are the 上帝版
+and are not included in this dataset.
 
 ## Data Status
 
@@ -26,9 +35,20 @@ scripts:
 Verification on 2026-05-15 found no missing chapters, no invalid JSON files,
 and no empty verse arrays.
 
+The `data/rcuv-shen` directory contains a complete per-chapter extraction for
+和合本2010（和修）（神版） in both scripts:
+
+- `traditional`: 1189 chapter JSON files
+- `simplified`: 1189 chapter JSON files
+- total: 2378 chapter JSON files
+
+Verification on 2026-05-17 found no missing chapters, no invalid JSON files,
+no empty verse arrays, no mismatched metadata, and no chapters whose first
+parsed verse starts after verse 1.
+
 ## Usage
 
-Fetch one chapter:
+Fetch one CUNP chapter:
 
 ```bash
 python3 scripts/extract_hkbs_cunp.py --book GEN --chapter 1
@@ -41,10 +61,22 @@ python3 scripts/extract_hkbs_cunp.py --book GEN --chapter 1 --script traditional
 python3 scripts/extract_hkbs_cunp.py --book GEN --chapter 1 --script simplified
 ```
 
-Fetch one whole book into per-chapter JSON files:
+Fetch one RCUV Shen chapter:
+
+```bash
+python3 scripts/extract_hkbs_cunp.py --translation rcuv-shen --book GEN --chapter 1
+```
+
+Fetch one whole CUNP book into per-chapter JSON files:
 
 ```bash
 python3 scripts/extract_hkbs_cunp.py --book GEN --output-dir data/cunp
+```
+
+Fetch one whole RCUV Shen book:
+
+```bash
+python3 scripts/extract_hkbs_cunp.py --translation rcuv-shen --book GEN --output-dir data/rcuv-shen
 ```
 
 Output is separated by script:
@@ -52,12 +84,20 @@ Output is separated by script:
 ```text
 data/cunp/traditional/GEN/001.json
 data/cunp/simplified/GEN/001.json
+data/rcuv-shen/traditional/GEN/001.json
+data/rcuv-shen/simplified/GEN/001.json
 ```
 
-Fetch all books:
+Fetch all CUNP books:
 
 ```bash
 python3 scripts/extract_hkbs_cunp.py --all --output-dir data/cunp --delay 1.5
+```
+
+Fetch all RCUV Shen books:
+
+```bash
+python3 scripts/extract_hkbs_cunp.py --translation rcuv-shen --all --output-dir data/rcuv-shen --workers 12 --delay 0.05
 ```
 
 Use JSON Lines instead of nested chapter JSON:

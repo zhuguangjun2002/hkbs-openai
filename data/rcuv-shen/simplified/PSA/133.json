@@ -1,0 +1,28 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1s",
+  "version_name": "和合本2010 (和修)（神版）",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 133,
+  "heading": "弟兄相爱颂",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/PSA/133/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "看哪，弟兄和睦同住是何等的善，何等的美！",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "这好比那贵重的油浇在亚伦的头上，流到胡须，又流到他的衣襟；",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "又好比黑门的甘露降在锡安山；因为在那里有耶和华所命定的福，就是永远的生命。",
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1s",
+  "version_name": "和合本2010 (和修)（神版）",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 150,
+  "heading": "赞美耶和华",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/PSA/150/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "哈利路亚！你们要在神的圣所赞美他！在他显能力的穹苍赞美他！",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "要因他大能的作为赞美他，因他极其伟大赞美他！",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "要用角声赞美他，鼓瑟弹琴赞美他！",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "击鼓跳舞赞美他！用丝弦的乐器和箫的声音赞美他！",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "用大响的钹赞美他！用高声的钹赞美他！",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "凡有生命的都要赞美耶和华！哈利路亚！",
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1",
+  "version_name": "和合本2010 (和修) (神版)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 120,
+  "heading": "求主恩助",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1/PSA/120/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "我在急難中求告耶和華，他就應允我。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "耶和華啊，求你救我脫離說謊的嘴唇和詭詐的舌頭！",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "詭詐的舌頭啊，他會給你甚麼呢？會加給你甚麼呢？",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "就是勇士的利箭、羅騰木的炭火。",
+      "notes": [
+        "「羅騰木」為小樹名，松類。"
+      ]
+    },
+    {
+      "verse": 5,
+      "text": "禍哉！我寄居在米設，住在基達帳棚之中。",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "我與那恨惡和平的人許久同住。",
+      "notes": []
+    },
+    {
+      "verse": 7,
+      "text": "我願和平，當我發言，他們卻要戰爭。",
+      "notes": []
+    }
+  ]
+}

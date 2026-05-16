@@ -1,0 +1,45 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1",
+  "version_name": "和合本2010 (和修) (神版)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 126,
+  "heading": "被擄歸回者的歡樂",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1/PSA/126/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "當耶和華使錫安被擄的人歸回的時候，我們好像做夢的人。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "那時，我們滿口喜笑、滿舌歡呼；那時，列國中就有人說：「耶和華為他們行了大事！」",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "耶和華果然為我們行了大事，我們就歡喜。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "耶和華啊，求你使我們這些被擄的人歸回，好像尼革夫的河水復流。",
+      "notes": [
+        "「尼革夫」是音譯，意思是「曠野乾旱的地方」，指「南方之地」。"
+      ]
+    },
+    {
+      "verse": 5,
+      "text": "流淚撒種的，必歡呼收割！",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "那帶種流淚出去的，必歡呼地帶禾捆回來！",
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1s",
+  "version_name": "和合本2010 (和修)（神版）",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 114,
+  "heading": "逾越节之歌",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/PSA/114/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "以色列出埃及，雅各家离开说陌生语言之民时，",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "犹大作主的圣所，以色列为他所治理的国。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "沧海看见就奔逃，约旦河也倒流。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "大山踊跃如公羊，小山跳舞如羔羊。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "沧海啊，你为何奔逃？约旦哪，你为何倒流？",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "大山哪，你为何踊跃如公羊？小山哪，你为何跳舞如羔羊？",
+      "notes": []
+    },
+    {
+      "verse": 7,
+      "text": "大地啊，在主的面前，在雅各的神的面前，震动吧！",
+      "notes": []
+    },
+    {
+      "verse": 8,
+      "text": "他叫磐石变为水池，使坚石变为泉源。",
+      "notes": []
+    }
+  ]
+}

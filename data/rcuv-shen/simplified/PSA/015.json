@@ -1,0 +1,38 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1s",
+  "version_name": "和合本2010 (和修)（神版）",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 15,
+  "heading": "得居圣山者的品行",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/PSA/15/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "耶和华啊，谁能寄居你的帐幕？谁能居住你的圣山？",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "就是行为正直、做事公义、心里说实话的人。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "他不以舌头谗害人，不恶待朋友，也不随伙毁谤邻舍。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "他眼中藐视匪类，却尊重那敬畏耶和华的人。他发了誓，虽然自己吃亏也不更改。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "他不放债取利，不受贿赂以害无辜。做这些事的人必永不动摇。",
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1",
+  "version_name": "和合本2010 (和修) (神版)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 87,
+  "heading": "錫安頌",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1/PSA/87/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "耶和華所立的根基在聖山上。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "耶和華愛錫安的門，勝於愛雅各一切的住處。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "神的城啊，有榮耀的事是指著你說的。（細拉）",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "我要提起拉哈伯和巴比倫人，是在認識我之中的；看哪，非利士、推羅和古實人，個個生在那裏。",
+      "notes": [
+        "「拉哈伯」是神話故事中的大海怪。"
+      ]
+    },
+    {
+      "verse": 5,
+      "text": "論到錫安，必有話說：「這一個、那一個都生在其中」；而且至高者必親自堅立這城。",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "當耶和華記錄萬民的時候，他要寫出人的出生地。（細拉）",
+      "notes": []
+    },
+    {
+      "verse": 7,
+      "text": "歌唱的、跳舞的，都要說：「我的泉源都在你裏面。」",
+      "notes": [
+        "本節七十士譯本是「他們都以住在你裏面為樂。」"
+      ]
+    }
+  ]
+}

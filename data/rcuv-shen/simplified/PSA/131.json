@@ -1,0 +1,28 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1s",
+  "version_name": "和合本2010 (和修)（神版）",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 131,
+  "heading": "谦卑靠主",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/PSA/131/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "耶和华啊，我的心不狂妄，我的眼不高傲；重大和测不透的事，我也不敢行。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "我使我心安稳平静，好像母亲怀中断奶的孩子；我的心在我里面如同断过奶的孩子。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "以色列啊，你当仰望耶和华，从今时直到永远！",
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1",
+  "version_name": "和合本2010 (和修) (神版)",
+  "script": "traditional",
+  "book_code": "JOB",
+  "book_name": "約伯記",
+  "chapter": 25,
+  "heading": "",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1/JOB/25/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "書亞人比勒達回答說：",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "「神有統治之權，威嚴可畏；他在高處施行和平。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "他的軍隊豈能數算？他的光向誰不會升起呢？",
+      "notes": [
+        "「他的光...升起呢」：七十士譯本是「他向誰不會埋伏呢」。"
+      ]
+    },
+    {
+      "verse": 4,
+      "text": "這樣，在神面前人怎能稱義？婦人所生的怎能潔淨？",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "看哪，在神眼前，月亮無光，星宿也不皎潔，",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "更何況是如蟲的人，如蛆的世人呢！",
+      "notes": []
+    }
+  ]
+}

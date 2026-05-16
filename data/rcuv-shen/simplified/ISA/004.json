@@ -1,0 +1,33 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1s",
+  "version_name": "和合本2010 (和修)（神版）",
+  "script": "simplified",
+  "book_code": "ISA",
+  "book_name": "以赛亚书",
+  "chapter": 4,
+  "heading": "耶路撒冷的重建",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/ISA/4/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "在那日，七个女人必拉住一个男人，说：“我们吃自己的食物，穿自己的衣服，但求你允许我们归你名下，除掉我们的羞耻。”",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "在那日，耶和华的苗必华美尊荣，地的出产必成为幸存的以色列民的骄傲和光荣。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "耶和华必在整座锡安山，在会众之上，白天造云，黑夜发出烟和火焰的光，因为在一切荣耀之上必有华盖；",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "这要作为棚子，白天可以遮荫避暑，暴风雨侵袭时，可作藏身处和避难所。",
+      "notes": []
+    }
+  ]
+}

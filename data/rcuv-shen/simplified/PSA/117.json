@@ -1,0 +1,23 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1s",
+  "version_name": "和合本2010 (和修)（神版）",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 117,
+  "heading": "赞美耶和华",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/PSA/117/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "万国啊，你们要赞美耶和华！万族啊，你们都要颂赞他！",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "因为他向我们大施慈爱，耶和华的信实存到永远。哈利路亚！",
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1",
+  "version_name": "和合本2010 (和修) (神版)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 134,
+  "heading": "宣召稱頌",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1/PSA/134/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "來，稱頌耶和華！夜間侍立在耶和華殿中，耶和華的僕人，",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "當向聖所舉手，稱頌耶和華！",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "願造天地的耶和華從錫安賜福給你們！",
+      "notes": []
+    }
+  ]
+}

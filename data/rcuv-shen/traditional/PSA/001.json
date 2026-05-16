@@ -1,0 +1,40 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1",
+  "version_name": "和合本2010 (和修) (神版)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 1,
+  "heading": "真福",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1/PSA/1/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "不從惡人的計謀，不站罪人的道路，不坐傲慢人的座位，惟喜愛耶和華的律法，晝夜思想他的律法；這人便為有福！",
+      "notes": [
+        "「思想」或譯「默念」。"
+      ]
+    },
+    {
+      "verse": 3,
+      "text": "他要像一棵樹栽在溪水旁，按時候結果子，葉子也不枯乾。凡他所做的盡都順利。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "惡人並不是這樣，卻像糠秕被風吹散。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "因此，當審判的時候惡人必站立不住，罪人在義人的會眾中也是如此。",
+      "notes": []
+    },
+    {
+      "verse": 6,
+      "text": "因為耶和華知道義人的道路，惡人的道路卻必滅亡。",
+      "notes": []
+    }
+  ]
+}

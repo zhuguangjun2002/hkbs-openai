@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Extract HKBS New Punctuation Chinese Union Version chapters.
+"""Extract HKBS Chinese Bible chapters.
 
 This script fetches public chapter pages such as:
 https://rcuv.hkbs.org.hk/CUNP1/GEN/1/
+https://rcuv.hkbs.org.hk/RCUV1/GEN/1/
 
 Check HKBS licensing/terms before bulk downloading or redistributing text.
 """
@@ -25,14 +26,26 @@ from urllib.request import Request, urlopen
 
 
 BASE_URL = "https://rcuv.hkbs.org.hk/{version}/{book}/{chapter}/"
-VERSIONS = {
-    "traditional": {
-        "code": "CUNP1",
-        "name": "新標點和合本(神)",
+TRANSLATIONS = {
+    "cunp": {
+        "traditional": {
+            "code": "CUNP1",
+            "name": "新標點和合本(神)",
+        },
+        "simplified": {
+            "code": "CUNP1s",
+            "name": "新标点和合本",
+        },
     },
-    "simplified": {
-        "code": "CUNP1s",
-        "name": "新标点和合本",
+    "rcuv-shen": {
+        "traditional": {
+            "code": "RCUV1",
+            "name": "和合本2010 (和修) (神版)",
+        },
+        "simplified": {
+            "code": "RCUV1s",
+            "name": "和合本2010 (和修)（神版）",
+        },
     },
 }
 
@@ -160,8 +173,9 @@ class ChapterParser(HTMLParser):
             self.heading_parts.append(data)
         elif self.in_verse_num:
             number = data.strip()
-            if number.isdigit():
-                self.current_num = int(number)
+            match = re.match(r"\d+", number)
+            if match:
+                self.current_num = int(match.group(0))
         elif self.in_verse_text:
             self.current_text.append(data)
 
@@ -184,17 +198,21 @@ def normalize_text(value: str) -> str:
 
 
 def chapter_fragment(page_html: str, version_code: str) -> str:
-    data_start = page_html.rfind("<%/template %>RCUV1|")
-    if data_start == -1:
-        data_start = 0
+    bible_marker = 'name="bible"'
+    bible_start = page_html.find(bible_marker)
+    if bible_start != -1:
+        content_start = page_html.find(">", bible_start)
+        end = page_html.find("</textarea>", content_start)
+        if content_start != -1 and end != -1:
+            return page_html[content_start + 1:end]
 
-    start = page_html.find("<h3>", data_start)
-    if start == -1:
-        raise ValueError("could not find chapter start")
-
-    end = page_html.find(f"{version_code}|", start)
+    end = page_html.rfind(f"{version_code}|")
     if end == -1:
         raise ValueError("could not find chapter metadata footer")
+
+    start = page_html.rfind("<h3>", 0, end)
+    if start == -1:
+        raise ValueError("could not find chapter start")
 
     return page_html[start:end]
 
@@ -243,6 +261,7 @@ def iter_targets(book: str | None, chapter: int | None) -> Iterable[tuple[str, s
 
 
 def chapter_record(
+    translation: str,
     script: str,
     code: str,
     book_name: str,
@@ -251,7 +270,7 @@ def chapter_record(
     retries: int,
     retry_delay: float,
 ) -> dict:
-    version = VERSIONS[script]
+    version = TRANSLATIONS[translation][script]
     version_code = version["code"]
     url = BASE_URL.format(version=version_code, book=code, chapter=chapter)
     last_error: Exception | None = None
@@ -268,6 +287,7 @@ def chapter_record(
         raise RuntimeError(f"failed to fetch {url}: {last_error}")
 
     return {
+        "translation": translation,
         "version": version_code,
         "version_name": version["name"],
         "script": script,
@@ -331,15 +351,19 @@ def run_job(
         return index, f"{label} skip existing {output}"
 
     print(f"{label} fetch", file=sys.stderr)
-    record = chapter_record(
-        script,
-        code,
-        name,
-        chapter,
-        args.timeout,
-        args.retries,
-        args.retry_delay,
-    )
+    try:
+        record = chapter_record(
+            args.translation,
+            script,
+            code,
+            name,
+            chapter,
+            args.timeout,
+            args.retries,
+            args.retry_delay,
+        )
+    except (HTTPError, URLError, TimeoutError, ValueError) as exc:
+        raise RuntimeError(f"{label} failed: {exc}") from exc
     write_record(record, output, args.format)
     if output:
         return index, f"{label} wrote {output}"
@@ -348,6 +372,12 @@ def run_job(
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--translation",
+        choices=sorted(TRANSLATIONS),
+        default="cunp",
+        help="HKBS translation/version family; default: cunp",
+    )
     parser.add_argument("--book", help="book code, for example GEN, PHP, REV")
     parser.add_argument("--chapter", type=int, help="chapter number")
     parser.add_argument("--all", action="store_true", help="fetch all 66 books")
@@ -389,7 +419,7 @@ def main() -> int:
         for index, (script, code, name, chapter) in enumerate(jobs, start=1):
             try:
                 _, message = run_job(index, total, script, code, name, chapter, args)
-            except (HTTPError, URLError, TimeoutError, ValueError) as exc:
+            except RuntimeError as exc:
                 print(f"[{index}/{total}] {script} {code} {chapter} failed: {exc}", file=sys.stderr)
                 return 1
             print(message, file=sys.stderr)
@@ -419,7 +449,7 @@ def main() -> int:
             pending.remove(done)
             try:
                 _, message = done.result()
-            except (HTTPError, URLError, TimeoutError, ValueError) as exc:
+            except RuntimeError as exc:
                 print(f"failed: {exc}", file=sys.stderr)
                 return 1
             print(message, file=sys.stderr)

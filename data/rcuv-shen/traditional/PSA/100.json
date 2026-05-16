@@ -1,0 +1,38 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1",
+  "version_name": "和合本2010 (和修) (神版)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 100,
+  "heading": "頌讚之詩",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1/PSA/100/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "普天下當向耶和華歡呼！",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "當樂意事奉耶和華，當歡唱來到他面前！",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "當認識耶和華是神！我們是他造的，也是屬他的；我們是他的民，是他草場的羊。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "當稱謝進入他的門，當讚美進入他的院。當感謝他，稱頌他的名！",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "因為耶和華本為善；他的慈愛存到永遠，他的信實直到萬代。",
+      "notes": []
+    }
+  ]
+}

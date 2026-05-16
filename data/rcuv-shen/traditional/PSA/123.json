@@ -1,0 +1,33 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1",
+  "version_name": "和合本2010 (和修) (神版)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 123,
+  "heading": "求主憐憫",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1/PSA/123/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "坐在天上的主啊，我向你舉目。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "看哪，僕人的眼睛怎樣仰望主人的手，婢女的眼睛怎樣仰望女主人的手，我們的眼睛也照樣仰望耶和華－我們的神，直到他憐憫我們。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "耶和華啊，求你憐憫我們，憐憫我們！因為我們受盡了藐視。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "我們受盡了安逸人的譏誚和驕傲人的藐視。",
+      "notes": []
+    }
+  ]
+}

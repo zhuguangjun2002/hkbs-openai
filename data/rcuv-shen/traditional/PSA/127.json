@@ -1,0 +1,38 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1",
+  "version_name": "和合本2010 (和修) (神版)",
+  "script": "traditional",
+  "book_code": "PSA",
+  "book_name": "詩篇",
+  "chapter": 127,
+  "heading": "稱頌神的良善",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1/PSA/127/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "若不是耶和華建造房屋，建造的人就枉然勞力；若不是耶和華看守城池，看守的人枉然警醒。",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "你們清晨早起，夜晚安歇，吃勞碌得來的飯，本是枉然；惟有耶和華所親愛的，必叫他安然睡覺。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "看哪，兒女是耶和華所賜的產業，所懷的胎是他所給的賞賜。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "人在年輕時生的兒女好像勇士手中的箭。",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "箭袋充滿的人有福了！他們在城門口和仇敵爭論時必不蒙羞。",
+      "notes": []
+    }
+  ]
+}

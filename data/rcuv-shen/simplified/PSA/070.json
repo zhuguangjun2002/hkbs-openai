@@ -1,0 +1,38 @@
+{
+  "translation": "rcuv-shen",
+  "version": "RCUV1s",
+  "version_name": "和合本2010 (和修)（神版）",
+  "script": "simplified",
+  "book_code": "PSA",
+  "book_name": "诗篇",
+  "chapter": 70,
+  "heading": "求助的祈祷",
+  "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/PSA/70/",
+  "verses": [
+    {
+      "verse": 1,
+      "text": "神啊，求你快快搭救我！耶和华啊，求你速速帮助我！",
+      "notes": []
+    },
+    {
+      "verse": 2,
+      "text": "愿那些寻索我命的，抱愧蒙羞；愿那些喜悦我遭害的，退后受辱。",
+      "notes": []
+    },
+    {
+      "verse": 3,
+      "text": "愿那些对我说“啊哈、啊哈”的，因羞愧退后。",
+      "notes": []
+    },
+    {
+      "verse": 4,
+      "text": "愿所有寻求你的，因你欢喜快乐；愿那些喜爱你救恩的，常说：“当尊神为大！”",
+      "notes": []
+    },
+    {
+      "verse": 5,
+      "text": "但我是困苦贫穷的；神啊，求你速速到我这里来！你是帮助我的，搭救我的；耶和华啊，求你不要耽延！",
+      "notes": []
+    }
+  ]
+}
