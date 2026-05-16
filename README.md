@@ -49,6 +49,16 @@ Verification on 2026-05-17 found no missing chapters, no invalid JSON files,
 no empty verse arrays, no mismatched metadata, and no chapters whose first
 parsed verse starts after verse 1.
 
+Run the verifier after changing extractor logic or files under `data/`:
+
+```bash
+python3 scripts/verify_bible_data.py data/cunp data/rcuv-shen
+```
+
+The verifier checks chapter coverage, JSON validity, path and metadata
+consistency, non-empty verse arrays, verse ordering, merged verse ranges, and
+source-level skipped or duplicate verse numbers.
+
 ## JSON Schema
 
 Each chapter JSON file has this top-level shape:
