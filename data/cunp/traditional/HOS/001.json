@@ -6,7 +6,7 @@
   "book_code": "HOS",
   "book_name": "何西阿書",
   "chapter": 1,
-  "heading": "何西阿的妻子和兒女",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/HOS/1/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "何西阿的妻子和兒女"
+      ],
       "text": "耶和華初次與何西阿說話，對他說：「你去娶淫婦為妻，也收那從淫亂所生的兒女；因為這地大行淫亂，離棄耶和華。」",
       "notes": []
     },

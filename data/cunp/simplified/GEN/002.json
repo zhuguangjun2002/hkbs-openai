@@ -6,7 +6,7 @@
   "book_code": "GEN",
   "book_name": "创世记",
   "chapter": 2,
-  "heading": "伊甸园",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/GEN/2/",
   "verses": [
     {
@@ -26,6 +26,9 @@
     },
     {
       "verse": 4,
+      "section_headings": [
+        "伊甸园"
+      ],
       "text": "创造天地的来历，在耶和华神造天地的日子，乃是这样，",
       "notes": []
     },

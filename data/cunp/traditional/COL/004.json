@@ -6,7 +6,7 @@
   "book_code": "COL",
   "book_name": "歌羅西書",
   "chapter": 4,
-  "heading": "勸導",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/COL/4/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "勸導"
+      ],
       "text": "你們要恆切禱告，在此警醒感恩。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "2CO",
   "book_name": "哥林多后书",
   "chapter": 5,
-  "heading": "劝人与神和好的职分",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/2CO/5/",
   "verses": [
     {
@@ -65,6 +65,9 @@
     },
     {
       "verse": 11,
+      "section_headings": [
+        "劝人与神和好的职分"
+      ],
       "text": "既然我们知道主是可畏的，就劝导人；但是神是认识我们的，我盼望你们的良心也认识我们。",
       "notes": []
     },

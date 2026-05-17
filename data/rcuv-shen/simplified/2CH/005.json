@@ -6,7 +6,7 @@
   "book_code": "2CH",
   "book_name": "历代志下",
   "chapter": 5,
-  "heading": "接约柜入殿",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/2CH/5/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "接约柜入殿"
+      ],
       "text": "于是，所罗门召集以色列的长老、各支派的领袖和以色列人的族长到耶路撒冷，要把耶和华的约柜从大卫城，就是锡安，接上来。",
       "notes": []
     },

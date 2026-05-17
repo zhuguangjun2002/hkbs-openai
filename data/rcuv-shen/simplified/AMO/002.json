@@ -6,7 +6,7 @@
   "book_code": "AMO",
   "book_name": "阿摩司书",
   "chapter": 2,
-  "heading": "神审判以色列",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/AMO/2/",
   "verses": [
     {
@@ -38,6 +38,9 @@
     },
     {
       "verse": 6,
+      "section_headings": [
+        "神审判以色列"
+      ],
       "text": "耶和华如此说：“以色列三番四次犯罪，为银子卖了义人，为一双鞋卖了穷人，我必不撤销对它的惩罚。",
       "notes": []
     },

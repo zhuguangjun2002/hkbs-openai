@@ -6,7 +6,7 @@
   "book_code": "EZK",
   "book_name": "以西結書",
   "chapter": 41,
-  "heading": "靠聖殿牆邊的廂房",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/EZK/41/",
   "verses": [
     {
@@ -33,6 +33,9 @@
     },
     {
       "verse": 5,
+      "section_headings": [
+        "靠聖殿牆邊的廂房"
+      ],
       "text": "他又量殿的牆，六肘；圍著殿有廂房，各寬四肘。",
       "notes": []
     },

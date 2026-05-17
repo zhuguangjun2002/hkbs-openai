@@ -6,7 +6,7 @@
   "book_code": "GEN",
   "book_name": "创世记",
   "chapter": 28,
-  "heading": "以扫另娶一妻",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/GEN/28/",
   "verses": [
     {
@@ -36,6 +36,9 @@
     },
     {
       "verse": 6,
+      "section_headings": [
+        "以扫另娶一妻"
+      ],
       "text": "以扫见以撒已经给雅各祝福，而且打发他往巴旦·亚兰去，在那里娶妻，并见祝福的时候嘱咐他说：「不要娶迦南的女子为妻」，",
       "notes": []
     },

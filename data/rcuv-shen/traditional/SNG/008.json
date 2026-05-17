@@ -6,7 +6,7 @@
   "book_code": "SNG",
   "book_name": "雅歌",
   "chapter": 8,
-  "heading": "第六首",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/SNG/8/",
   "verses": [
     {
@@ -31,6 +31,9 @@
     },
     {
       "verse": 5,
+      "section_headings": [
+        "第六首"
+      ],
       "text": "那靠著良人從曠野上來的是誰呢？在蘋果樹下，我叫醒了你；在那裏，你母親曾為了生你而陣痛，在那裏，生你的為你陣痛。",
       "notes": []
     },

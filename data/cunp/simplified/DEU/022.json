@@ -6,7 +6,7 @@
   "book_code": "DEU",
   "book_name": "申命记",
   "chapter": 22,
-  "heading": "有关贞洁的条例",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/DEU/22/",
   "verses": [
     {
@@ -71,6 +71,9 @@
     },
     {
       "verse": 13,
+      "section_headings": [
+        "有关贞洁的条例"
+      ],
       "text": "「人若娶妻，与她同房之后恨恶她，",
       "notes": []
     },

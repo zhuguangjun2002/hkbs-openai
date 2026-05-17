@@ -6,7 +6,7 @@
   "book_code": "1CH",
   "book_name": "历代志上",
   "chapter": 16,
-  "heading": "颂赞之歌",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/1CH/16/",
   "verses": [
     {
@@ -50,6 +50,9 @@
     },
     {
       "verse": 8,
+      "section_headings": [
+        "颂赞之歌"
+      ],
       "text": "你们要称谢耶和华，求告他的名，在万民中传扬他的作为！",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "HOS",
   "book_name": "何西阿书",
   "chapter": 10,
-  "heading": "神审判以色列",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/HOS/10/",
   "verses": [
     {
@@ -51,6 +51,9 @@
     },
     {
       "verse": 9,
+      "section_headings": [
+        "神审判以色列"
+      ],
       "text": "以色列啊，你从基比亚的日子以来就时常犯罪，他们仍停留在那里。攻击罪孽之辈的战事岂不会临到基比亚吗？",
       "notes": []
     },

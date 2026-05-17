@@ -6,7 +6,7 @@
   "book_code": "MIC",
   "book_name": "弥迦书",
   "chapter": 1,
-  "heading": "为撒马利亚和耶路撒冷唱哀歌",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/MIC/1/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "为撒马利亚和耶路撒冷唱哀歌"
+      ],
       "text": "万民哪，你们都要听！地和其上所有的，也都要侧耳而听！主耶和华从他的圣殿要见证你们的不是。",
       "notes": []
     },

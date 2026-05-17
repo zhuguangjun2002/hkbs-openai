@@ -6,7 +6,7 @@
   "book_code": "SNG",
   "book_name": "雅歌",
   "chapter": 2,
-  "heading": "第二首",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/SNG/2/",
   "verses": [
     {
@@ -46,6 +46,9 @@
     },
     {
       "verse": 8,
+      "section_headings": [
+        "第二首"
+      ],
       "text": "聽啊！我良人的聲音，看哪！他穿山越嶺而來。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "MAL",
   "book_name": "玛拉基书",
   "chapter": 2,
-  "heading": "百姓对神不忠",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/MAL/2/",
   "verses": [
     {
@@ -60,6 +60,9 @@
     },
     {
       "verse": 10,
+      "section_headings": [
+        "百姓对神不忠"
+      ],
       "text": "我们岂不都有一位父吗？岂不是一位神创造了我们吗？为何互相行诡诈，亵渎了神与我们列祖所立的约呢？",
       "notes": []
     },

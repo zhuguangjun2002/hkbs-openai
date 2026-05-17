@@ -6,7 +6,7 @@
   "book_code": "1SA",
   "book_name": "撒母耳記上",
   "chapter": 10,
-  "heading": "抽籤得掃羅為王",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/1SA/10/",
   "verses": [
     {
@@ -91,6 +91,9 @@
     },
     {
       "verse": 17,
+      "section_headings": [
+        "抽籤得掃羅為王"
+      ],
       "text": "撒母耳將百姓招聚到米斯巴耶和華那裏，",
       "notes": []
     },

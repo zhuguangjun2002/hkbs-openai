@@ -6,7 +6,7 @@
   "book_code": "ECC",
   "book_name": "传道书",
   "chapter": 9,
-  "heading": "智慧胜过武力",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/ECC/9/",
   "verses": [
     {
@@ -77,6 +77,9 @@
     },
     {
       "verse": 13,
+      "section_headings": [
+        "智慧胜过武力"
+      ],
       "text": "我见日光之下有一样智慧，在我看来是伟大的，",
       "notes": []
     },

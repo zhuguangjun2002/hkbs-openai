@@ -6,7 +6,7 @@
   "book_code": "ZEP",
   "book_name": "西番雅书",
   "chapter": 1,
-  "heading": "耶和华审判的日子",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/ZEP/1/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "耶和华审判的日子"
+      ],
       "text": "耶和华说：“我必从地面上彻底除灭万物。",
       "notes": []
     },

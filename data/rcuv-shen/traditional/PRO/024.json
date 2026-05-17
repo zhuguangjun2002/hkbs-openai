@@ -6,7 +6,7 @@
   "book_code": "PRO",
   "book_name": "箴言",
   "chapter": 24,
-  "heading": "其他智言",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/PRO/24/",
   "verses": [
     {
@@ -121,6 +121,9 @@
     },
     {
       "verse": 23,
+      "section_headings": [
+        "其他智言"
+      ],
       "text": "以下也是智慧人的箴言：審判時看人情面是不好的。",
       "notes": []
     },

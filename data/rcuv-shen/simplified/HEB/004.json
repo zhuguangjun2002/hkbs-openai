@@ -6,7 +6,7 @@
   "book_code": "HEB",
   "book_name": "希伯来书",
   "chapter": 4,
-  "heading": "大祭司耶稣",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/HEB/4/",
   "verses": [
     {
@@ -78,6 +78,9 @@
     },
     {
       "verse": 14,
+      "section_headings": [
+        "大祭司耶稣"
+      ],
       "text": "既然我们有一位伟大、进入高天的大祭司，就是耶稣—神的儿子，我们应当持定所宣认的道。",
       "notes": []
     },

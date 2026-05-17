@@ -6,7 +6,7 @@
   "book_code": "COL",
   "book_name": "歌罗西书",
   "chapter": 3,
-  "heading": "新生活的本分",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/COL/3/",
   "verses": [
     {
@@ -102,6 +102,9 @@
     },
     {
       "verse": 18,
+      "section_headings": [
+        "新生活的本分"
+      ],
       "text": "你们作妻子的，当顺服自己的丈夫，这在主里面是相宜的。",
       "notes": []
     },

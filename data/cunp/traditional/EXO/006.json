@@ -6,7 +6,7 @@
   "book_code": "EXO",
   "book_name": "出埃及記",
   "chapter": 6,
-  "heading": "神呼召摩西",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/EXO/6/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "神呼召摩西"
+      ],
       "text": "神曉諭摩西說：「我是耶和華。",
       "notes": []
     },

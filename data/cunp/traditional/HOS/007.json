@@ -6,7 +6,7 @@
   "book_code": "HOS",
   "book_name": "何西阿書",
   "chapter": 7,
-  "heading": "宮廷內亂",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/HOS/7/",
   "verses": [
     {
@@ -21,6 +21,9 @@
     },
     {
       "verse": 3,
+      "section_headings": [
+        "宮廷內亂"
+      ],
       "text": "他們行惡使君王歡喜，說謊使首領喜樂。",
       "notes": []
     },

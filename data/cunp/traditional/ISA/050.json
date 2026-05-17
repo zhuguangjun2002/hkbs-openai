@@ -6,7 +6,7 @@
   "book_code": "ISA",
   "book_name": "以賽亞書",
   "chapter": 50,
-  "heading": "耶和華僕人的順服",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/ISA/50/",
   "verses": [
     {
@@ -26,6 +26,9 @@
     },
     {
       "verse": 4,
+      "section_headings": [
+        "耶和華僕人的順服"
+      ],
       "text": "主耶和華賜我受教者的舌頭，使我知道怎樣用言語扶助疲乏的人。主每早晨提醒，提醒我的耳朵，使我能聽，像受教者一樣。",
       "notes": []
     },

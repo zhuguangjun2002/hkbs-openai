@@ -6,7 +6,7 @@
   "book_code": "2CO",
   "book_name": "哥林多后书",
   "chapter": 7,
-  "heading": "保罗为教会悔改而欢喜",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/2CO/7/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "保罗为教会悔改而欢喜"
+      ],
       "text": "宽宏大量地接纳我们吧！我们未曾亏负谁，未曾败坏谁，未曾占谁的便宜。",
       "notes": []
     },

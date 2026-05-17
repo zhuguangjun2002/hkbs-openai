@@ -6,7 +6,7 @@
   "book_code": "HEB",
   "book_name": "希伯来书",
   "chapter": 6,
-  "heading": "神确切的应许",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/HEB/6/",
   "verses": [
     {
@@ -62,6 +62,9 @@
     },
     {
       "verse": 13,
+      "section_headings": [
+        "神确切的应许"
+      ],
       "text": "当初神应许亚伯拉罕的时候，因为没有比自己更大的可以指着起誓，就指着自己起誓，",
       "notes": []
     },

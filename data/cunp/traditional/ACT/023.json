@@ -6,7 +6,7 @@
   "book_code": "ACT",
   "book_name": "使徒行傳",
   "chapter": 23,
-  "heading": "殺害保羅的陰謀",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/ACT/23/",
   "verses": [
     {
@@ -66,6 +66,9 @@
     },
     {
       "verse": 12,
+      "section_headings": [
+        "殺害保羅的陰謀"
+      ],
       "text": "到了天亮，猶太人同謀起誓，說：「若不先殺保羅就不吃不喝。」",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "1SA",
   "book_name": "撒母耳记上",
   "chapter": 28,
-  "heading": "扫罗求问女巫",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/1SA/28/",
   "verses": [
     {
@@ -23,6 +23,9 @@
     },
     {
       "verse": 3,
+      "section_headings": [
+        "扫罗求问女巫"
+      ],
       "text": "那时撒母耳已经死了，以色列众人为他哀哭，把他葬在他的本城拉玛。扫罗曾在国内驱除招魂的和行巫术的人。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "PRO",
   "book_name": "箴言",
   "chapter": 22,
-  "heading": "智言三十则",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/PRO/22/",
   "verses": [
     {
@@ -95,6 +95,9 @@
     },
     {
       "verse": 17,
+      "section_headings": [
+        "智言三十则"
+      ],
       "text": "你要侧耳听智慧人的言语，留心领会我的知识。",
       "notes": [
         "“你要...言语”：七十士译本是“智慧人的言语：你要侧耳听我的言语”。"

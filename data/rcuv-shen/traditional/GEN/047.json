@@ -6,7 +6,7 @@
   "book_code": "GEN",
   "book_name": "創世記",
   "chapter": 47,
-  "heading": "嚴重的饑荒",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/GEN/47/",
   "verses": [
     {
@@ -71,6 +71,9 @@
     },
     {
       "verse": 13,
+      "section_headings": [
+        "嚴重的饑荒"
+      ],
       "text": "饑荒非常嚴重，全地都絕了糧，埃及地和迦南地都因饑荒耗損了。",
       "notes": []
     },

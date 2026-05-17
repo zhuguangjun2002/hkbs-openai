@@ -6,7 +6,7 @@
   "book_code": "JHN",
   "book_name": "约翰福音",
   "chapter": 8,
-  "heading": "耶稣是世界的光",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/JHN/8/",
   "verses": [
     {
@@ -68,6 +68,9 @@
     },
     {
       "verse": 12,
+      "section_headings": [
+        "耶稣是世界的光"
+      ],
       "text": "耶稣又对众人说：“我就是世界的光。跟从我的，必不在黑暗里走，却要得着生命的光。”",
       "notes": []
     },

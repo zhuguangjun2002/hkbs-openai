@@ -6,7 +6,7 @@
   "book_code": "NAM",
   "book_name": "那鸿书",
   "chapter": 1,
-  "heading": "耶和华向尼尼微发怒",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/NAM/1/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "耶和华向尼尼微发怒"
+      ],
       "text": "耶和华是忌邪、报应的神。耶和华施报应，大有愤怒；耶和华向他的敌人报应，向他的仇敌怀怒。",
       "notes": [
         "“忌邪”：原文是“妒忌”，意思是“不容许有对立的神明”。"

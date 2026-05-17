@@ -6,7 +6,7 @@
   "book_code": "GEN",
   "book_name": "創世記",
   "chapter": 30,
-  "heading": "雅各和拉班定工價",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/GEN/30/",
   "verses": [
     {
@@ -147,6 +147,9 @@
     },
     {
       "verse": 25,
+      "section_headings": [
+        "雅各和拉班定工價"
+      ],
       "text": "拉結生約瑟之後，雅各對拉班說：「請打發我走，叫我回到我本鄉本土去。",
       "notes": []
     },

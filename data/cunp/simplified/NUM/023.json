@@ -6,7 +6,7 @@
   "book_code": "NUM",
   "book_name": "民数记",
   "chapter": 23,
-  "heading": "巴兰第二次预言",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/NUM/23/",
   "verses": [
     {
@@ -71,6 +71,9 @@
     },
     {
       "verse": 13,
+      "section_headings": [
+        "巴兰第二次预言"
+      ],
       "text": "巴勒说：「求你同我往别处去，在那里可以看见他们；你不能全看见，只能看见他们边界上的人。在那里要为我咒诅他们。」",
       "notes": []
     },

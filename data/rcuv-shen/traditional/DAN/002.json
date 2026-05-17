@@ -6,7 +6,7 @@
   "book_code": "DAN",
   "book_name": "但以理書",
   "chapter": 2,
-  "heading": "神指示但以理",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/DAN/2/",
   "verses": [
     {
@@ -78,6 +78,9 @@
     },
     {
       "verse": 14,
+      "section_headings": [
+        "神指示但以理"
+      ],
       "text": "王的護衛長亞略奉命去殺巴比倫的智慧人，但以理用婉言和智慧回應，",
       "notes": []
     },

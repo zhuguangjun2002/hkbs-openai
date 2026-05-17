@@ -6,7 +6,7 @@
   "book_code": "2CO",
   "book_name": "哥林多後書",
   "chapter": 6,
-  "heading": "永生神的殿",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/2CO/6/",
   "verses": [
     {
@@ -76,6 +76,9 @@
     },
     {
       "verse": 14,
+      "section_headings": [
+        "永生神的殿"
+      ],
       "text": "你們不要和不信的人同負一軛。義和不義有甚麼相關？光明和黑暗有甚麼相連？",
       "notes": []
     },

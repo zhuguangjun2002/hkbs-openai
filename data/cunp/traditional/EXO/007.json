@@ -6,7 +6,7 @@
   "book_code": "EXO",
   "book_name": "出埃及記",
   "chapter": 7,
-  "heading": "亞倫的杖",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/EXO/7/",
   "verses": [
     {
@@ -46,6 +46,9 @@
     },
     {
       "verse": 8,
+      "section_headings": [
+        "亞倫的杖"
+      ],
       "text": "耶和華曉諭摩西、亞倫說：",
       "notes": []
     },

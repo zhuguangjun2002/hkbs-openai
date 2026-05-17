@@ -6,7 +6,7 @@
   "book_code": "2SA",
   "book_name": "撒母耳记下",
   "chapter": 3,
-  "heading": "大卫的儿子们",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/2SA/3/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "大卫的儿子们"
+      ],
       "text": "大卫在希伯仑得了几个儿子：长子暗嫩是耶斯列人亚希暖所生的；",
       "notes": []
     },

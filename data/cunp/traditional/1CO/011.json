@@ -6,7 +6,7 @@
   "book_code": "1CO",
   "book_name": "哥林多前書",
   "chapter": 11,
-  "heading": "禮拜時蒙頭的問題",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/1CO/11/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "禮拜時蒙頭的問題"
+      ],
       "text": "我稱讚你們，因你們凡事記念我，又堅守我所傳給你們的。",
       "notes": []
     },

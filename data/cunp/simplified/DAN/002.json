@@ -6,7 +6,7 @@
   "book_code": "DAN",
   "book_name": "但以理书",
   "chapter": 2,
-  "heading": "神把梦的意思指示但以理",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/DAN/2/",
   "verses": [
     {
@@ -78,6 +78,9 @@
     },
     {
       "verse": 14,
+      "section_headings": [
+        "神把梦的意思指示但以理"
+      ],
       "text": "王的护卫长亚略出来，要杀巴比伦的哲士，但以理就用婉言回答他，",
       "notes": []
     },

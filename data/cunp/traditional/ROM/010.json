@@ -6,7 +6,7 @@
   "book_code": "ROM",
   "book_name": "羅馬書",
   "chapter": 10,
-  "heading": "求告主名的必要得救",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/ROM/10/",
   "verses": [
     {
@@ -31,6 +31,9 @@
     },
     {
       "verse": 5,
+      "section_headings": [
+        "求告主名的必要得救"
+      ],
       "text": "摩西寫著說：「人若行那出於律法的義，就必因此活著。」",
       "notes": []
     },

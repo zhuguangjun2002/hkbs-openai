@@ -6,7 +6,7 @@
   "book_code": "MAL",
   "book_name": "瑪拉基書",
   "chapter": 3,
-  "heading": "十一奉獻",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/MAL/3/",
   "verses": [
     {
@@ -36,6 +36,9 @@
     },
     {
       "verse": 6,
+      "section_headings": [
+        "十一奉獻"
+      ],
       "text": "「我－耶和華是不改變的；所以，雅各的子孫啊，你們不致滅亡。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "SNG",
   "book_name": "雅歌",
   "chapter": 3,
-  "heading": "第三首",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/SNG/3/",
   "verses": [
     {
@@ -36,6 +36,9 @@
     },
     {
       "verse": 6,
+      "section_headings": [
+        "第三首"
+      ],
       "text": "那如烟柱从旷野上来，薰了没药、乳香，扑上商人各样香粉的是谁呢？",
       "notes": []
     },

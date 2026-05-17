@@ -6,7 +6,7 @@
   "book_code": "SNG",
   "book_name": "雅歌",
   "chapter": 1,
-  "heading": "第一首",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/SNG/1/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "第一首"
+      ],
       "text": "願他用口與我親嘴；因你的愛情比酒更美。",
       "notes": []
     },

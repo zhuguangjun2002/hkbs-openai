@@ -6,7 +6,7 @@
   "book_code": "HAB",
   "book_name": "哈巴谷書",
   "chapter": 1,
-  "heading": "哈巴谷為不公平而訴苦",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/HAB/1/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "哈巴谷為不公平而訴苦"
+      ],
       "text": "他說：耶和華啊！我呼求你，你不應允，要到幾時呢？我因強暴哀求你，你還不拯救。",
       "notes": []
     },

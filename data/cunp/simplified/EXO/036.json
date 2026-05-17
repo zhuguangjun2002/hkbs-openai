@@ -6,7 +6,7 @@
   "book_code": "EXO",
   "book_name": "出埃及记",
   "chapter": 36,
-  "heading": "百姓奉献礼物",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/EXO/36/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "百姓奉献礼物"
+      ],
       "text": "凡耶和华赐他心里有智慧、而且受感前来做这工的，摩西把他们和比撒列并亚何利亚伯一同召来。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "2KI",
   "book_name": "列王纪下",
   "chapter": 25,
-  "heading": "圣殿被毁",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/2KI/25/",
   "verses": [
     {
@@ -46,6 +46,9 @@
     },
     {
       "verse": 8,
+      "section_headings": [
+        "圣殿被毁"
+      ],
       "text": "巴比伦王尼布甲尼撒十九年五月初七，巴比伦王的臣仆尼布撒拉旦护卫长进入耶路撒冷，",
       "notes": []
     },

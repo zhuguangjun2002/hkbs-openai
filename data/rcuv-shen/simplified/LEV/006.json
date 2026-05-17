@@ -6,7 +6,7 @@
   "book_code": "LEV",
   "book_name": "利未记",
   "chapter": 6,
-  "heading": "祭司献燔祭的责任",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/LEV/6/",
   "verses": [
     {
@@ -48,6 +48,9 @@
     },
     {
       "verse": 8,
+      "section_headings": [
+        "祭司献燔祭的责任"
+      ],
       "text": "耶和华吩咐摩西说：",
       "notes": []
     },

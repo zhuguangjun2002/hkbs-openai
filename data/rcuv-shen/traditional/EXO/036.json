@@ -6,7 +6,7 @@
   "book_code": "EXO",
   "book_name": "出埃及記",
   "chapter": 36,
-  "heading": "百姓的奉獻",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/EXO/36/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "百姓的奉獻"
+      ],
       "text": "摩西把比撒列和亞何利亞伯，以及那些蒙耶和華賜他心裏有智慧，心受感動願意前來做工的人都召來。",
       "notes": []
     },

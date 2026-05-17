@@ -6,7 +6,7 @@
   "book_code": "1SA",
   "book_name": "撒母耳记上",
   "chapter": 10,
-  "heading": "扫罗受感说话",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/1SA/10/",
   "verses": [
     {
@@ -53,6 +53,9 @@
     },
     {
       "verse": 9,
+      "section_headings": [
+        "扫罗受感说话"
+      ],
       "text": "扫罗转身离开撒母耳，神就改变他，赐给他另一颗心。当日这一切征兆都应验了。",
       "notes": []
     },

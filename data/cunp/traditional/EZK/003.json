@@ -6,7 +6,7 @@
   "book_code": "EZK",
   "book_name": "以西結書",
   "chapter": 3,
-  "heading": "耶和華派以西結作守望者",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/EZK/3/",
   "verses": [
     {
@@ -88,6 +88,9 @@
     },
     {
       "verse": 16,
+      "section_headings": [
+        "耶和華派以西結作守望者"
+      ],
       "text": "過了七日，耶和華的話臨到我說：",
       "notes": []
     },

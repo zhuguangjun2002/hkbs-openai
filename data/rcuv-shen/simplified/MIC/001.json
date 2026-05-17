@@ -6,7 +6,7 @@
   "book_code": "MIC",
   "book_name": "弥迦书",
   "chapter": 1,
-  "heading": "先知唱哀歌",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/MIC/1/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "先知唱哀歌"
+      ],
       "text": "万民哪，你们都要听！地和其上所有的，要留心听！主耶和华要从他的圣殿指证你们的不是。",
       "notes": []
     },

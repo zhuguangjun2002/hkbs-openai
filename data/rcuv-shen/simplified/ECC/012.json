@@ -6,7 +6,7 @@
   "book_code": "ECC",
   "book_name": "传道书",
   "chapter": 12,
-  "heading": "结论",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/ECC/12/",
   "verses": [
     {
@@ -53,6 +53,9 @@
     },
     {
       "verse": 9,
+      "section_headings": [
+        "结论"
+      ],
       "text": "再者，传道者因有智慧，将知识教导众人；他思量，考察，并列举出许多箴言。",
       "notes": []
     },

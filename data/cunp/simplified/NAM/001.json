@@ -6,7 +6,7 @@
   "book_code": "NAM",
   "book_name": "那鸿书",
   "chapter": 1,
-  "heading": "耶和华向尼尼微发怒",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/NAM/1/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "耶和华向尼尼微发怒"
+      ],
       "text": "耶和华是忌邪施报的神。耶和华施报大有忿怒；向他的敌人施报，向他的仇敌怀怒。",
       "notes": []
     },

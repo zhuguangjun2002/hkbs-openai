@@ -6,7 +6,7 @@
   "book_code": "ECC",
   "book_name": "传道书",
   "chapter": 8,
-  "heading": "服从君王",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/ECC/8/",
   "verses": [
     {
@@ -19,6 +19,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "服从君王"
+      ],
       "text": "我劝你因神誓言的缘故，当遵守王的命令。",
       "notes": [
         "七十士译本没有“我劝你”。"

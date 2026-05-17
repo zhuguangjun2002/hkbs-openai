@@ -6,7 +6,7 @@
   "book_code": "PHP",
   "book_name": "腓立比书",
   "chapter": 4,
-  "heading": "保罗的劝导",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/PHP/4/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "保罗的劝导"
+      ],
       "text": "我劝友阿蝶和循都基，要在主里同心。",
       "notes": []
     },

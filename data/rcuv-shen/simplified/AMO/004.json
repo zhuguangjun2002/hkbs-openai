@@ -6,7 +6,7 @@
   "book_code": "AMO",
   "book_name": "阿摩司书",
   "chapter": 4,
-  "heading": "以色列的失败",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/AMO/4/",
   "verses": [
     {
@@ -29,6 +29,9 @@
     },
     {
       "verse": 4,
+      "section_headings": [
+        "以色列的失败"
+      ],
       "text": "“以色列人哪，任你们往伯特利去犯罪，到吉甲增加罪过，每早晨献上你们的祭物，每三日纳你们的十一奉献；",
       "notes": []
     },

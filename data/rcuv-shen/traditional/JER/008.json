@@ -6,7 +6,7 @@
   "book_code": "JER",
   "book_name": "耶利米書",
   "chapter": 8,
-  "heading": "罪與罰",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/JER/8/",
   "verses": [
     {
@@ -28,6 +28,9 @@
     },
     {
       "verse": 4,
+      "section_headings": [
+        "罪與罰"
+      ],
       "text": "「你要對他們說，耶和華如此說：人跌倒，不再起來嗎？人轉去，不再轉回來嗎？",
       "notes": []
     },

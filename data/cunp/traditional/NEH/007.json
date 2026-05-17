@@ -6,7 +6,7 @@
   "book_code": "NEH",
   "book_name": "尼希米記",
   "chapter": 7,
-  "heading": "被擄歸回者的名單",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/NEH/7/",
   "verses": [
     {
@@ -26,6 +26,9 @@
     },
     {
       "verse": 4,
+      "section_headings": [
+        "被擄歸回者的名單"
+      ],
       "text": "城是廣大，其中的民卻稀少，房屋還沒有建造。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "EPH",
   "book_name": "以弗所書",
   "chapter": 5,
-  "heading": "行事為人當像光明的子女",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/EPH/5/",
   "verses": [
     {
@@ -36,6 +36,9 @@
     },
     {
       "verse": 6,
+      "section_headings": [
+        "行事為人當像光明的子女"
+      ],
       "text": "不要被人虛浮的話欺哄；因這些事，神的忿怒必臨到那悖逆之子。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "JDG",
   "book_name": "士师记",
   "chapter": 11,
-  "heading": "耶弗他的女儿",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/JDG/11/",
   "verses": [
     {
@@ -176,6 +176,9 @@
     },
     {
       "verse": 34,
+      "section_headings": [
+        "耶弗他的女儿"
+      ],
       "text": "耶弗他回米斯巴到了自己的家，不料，他女儿拿着鼓跳舞出来迎接他，是他独生的，此外无儿无女。",
       "notes": []
     },

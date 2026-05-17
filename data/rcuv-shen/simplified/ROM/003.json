@@ -6,7 +6,7 @@
   "book_code": "ROM",
   "book_name": "罗马书",
   "chapter": 3,
-  "heading": "没有义人",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/ROM/3/",
   "verses": [
     {
@@ -51,6 +51,9 @@
     },
     {
       "verse": 9,
+      "section_headings": [
+        "没有义人"
+      ],
       "text": "那又怎么样呢？我们比他们强吗？绝不是！因我们已经指证：犹太人和希腊人都在罪恶之下。",
       "notes": []
     },

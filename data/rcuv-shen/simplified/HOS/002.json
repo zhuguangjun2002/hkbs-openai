@@ -6,7 +6,7 @@
   "book_code": "HOS",
   "book_name": "何西阿书",
   "chapter": 2,
-  "heading": "不贞的歌篾－不忠的以色列",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/HOS/2/",
   "verses": [
     {
@@ -21,6 +21,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "不贞的歌篾－不忠的以色列"
+      ],
       "text": "要跟你们的母亲理论，理论，─因为她不是我的妻子，我也不是她的丈夫─叫她除掉脸上的淫相和胸间的淫态，",
       "notes": []
     },

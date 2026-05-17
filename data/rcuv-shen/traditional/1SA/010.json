@@ -6,7 +6,7 @@
   "book_code": "1SA",
   "book_name": "撒母耳記上",
   "chapter": 10,
-  "heading": "掃羅受感說話",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/1SA/10/",
   "verses": [
     {
@@ -53,6 +53,9 @@
     },
     {
       "verse": 9,
+      "section_headings": [
+        "掃羅受感說話"
+      ],
       "text": "掃羅轉身離開撒母耳，神就改變他，賜給他另一顆心。當日這一切徵兆都應驗了。",
       "notes": []
     },

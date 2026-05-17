@@ -6,7 +6,7 @@
   "book_code": "PRO",
   "book_name": "箴言",
   "chapter": 7,
-  "heading": "淫乱的妇人",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/PRO/7/",
   "verses": [
     {
@@ -36,6 +36,9 @@
     },
     {
       "verse": 6,
+      "section_headings": [
+        "淫乱的妇人"
+      ],
       "text": "我曾在我房屋的窗户内，透过窗格子往外观看，",
       "notes": []
     },

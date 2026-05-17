@@ -6,7 +6,7 @@
   "book_code": "2CO",
   "book_name": "哥林多后书",
   "chapter": 2,
-  "heading": "赦免犯过失的人",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/2CO/2/",
   "verses": [
     {
@@ -31,6 +31,9 @@
     },
     {
       "verse": 5,
+      "section_headings": [
+        "赦免犯过失的人"
+      ],
       "text": "若有叫人忧愁的，他不但叫我忧愁，也是叫你们众人有几分忧愁。我说几分，恐怕说得太重。",
       "notes": []
     },

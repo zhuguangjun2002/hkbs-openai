@@ -6,7 +6,7 @@
   "book_code": "2SA",
   "book_name": "撒母耳記下",
   "chapter": 3,
-  "heading": "大衛的兒子",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/2SA/3/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "大衛的兒子"
+      ],
       "text": "大衛在希伯崙生了幾個兒子：長子暗嫩是耶斯列人亞希暖所生的；",
       "notes": []
     },

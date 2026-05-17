@@ -6,7 +6,7 @@
   "book_code": "PRO",
   "book_name": "箴言",
   "chapter": 22,
-  "heading": "智言三十則",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/PRO/22/",
   "verses": [
     {
@@ -91,6 +91,9 @@
     },
     {
       "verse": 17,
+      "section_headings": [
+        "智言三十則"
+      ],
       "text": "你須側耳聽受智慧人的言語，留心領會我的知識。",
       "notes": []
     },

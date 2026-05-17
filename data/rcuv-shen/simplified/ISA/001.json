@@ -6,7 +6,7 @@
   "book_code": "ISA",
   "book_name": "以赛亚书",
   "chapter": 1,
-  "heading": "神责备以色列",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/ISA/1/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "神责备以色列"
+      ],
       "text": "天哪，要听！地啊，侧耳而听！因为耶和华说：“我养育儿女，将他们养大，他们竟悖逆我。",
       "notes": []
     },

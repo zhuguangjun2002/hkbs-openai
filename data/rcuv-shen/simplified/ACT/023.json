@@ -6,7 +6,7 @@
   "book_code": "ACT",
   "book_name": "使徒行传",
   "chapter": 23,
-  "heading": "杀害保罗的阴谋",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/ACT/23/",
   "verses": [
     {
@@ -66,6 +66,9 @@
     },
     {
       "verse": 12,
+      "section_headings": [
+        "杀害保罗的阴谋"
+      ],
       "text": "到了天亮，犹太人同谋起誓，说“若不先杀保罗就不吃不喝”。",
       "notes": []
     },

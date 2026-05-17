@@ -6,7 +6,7 @@
   "book_code": "ISA",
   "book_name": "以賽亞書",
   "chapter": 10,
-  "heading": "神用亞述王為工具",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/ISA/10/",
   "verses": [
     {
@@ -33,6 +33,9 @@
     },
     {
       "verse": 5,
+      "section_headings": [
+        "神用亞述王為工具"
+      ],
       "text": "亞述是我怒氣的棍，手中拿我惱恨的杖。",
       "notes": []
     },

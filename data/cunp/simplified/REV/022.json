@@ -6,7 +6,7 @@
   "book_code": "REV",
   "book_name": "启示录",
   "chapter": 22,
-  "heading": "基督再临",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/REV/22/",
   "verses": [
     {
@@ -38,6 +38,9 @@
     },
     {
       "verse": 6,
+      "section_headings": [
+        "基督再临"
+      ],
       "text": "天使又对我说：「这些话是真实可信的。主就是众先知被感之灵的神，差遣他的使者，将那必要快成的事指示他仆人。」",
       "notes": []
     },

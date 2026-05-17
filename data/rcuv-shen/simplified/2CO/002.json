@@ -6,7 +6,7 @@
   "book_code": "2CO",
   "book_name": "哥林多后书",
   "chapter": 2,
-  "heading": "赦免犯过失的人",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/2CO/2/",
   "verses": [
     {
@@ -31,6 +31,9 @@
     },
     {
       "verse": 5,
+      "section_headings": [
+        "赦免犯过失的人"
+      ],
       "text": "如果有人使人悲伤，他不但使我悲伤，也是使你们众人有些悲伤。我说有些，恐怕说得太重了。",
       "notes": []
     },

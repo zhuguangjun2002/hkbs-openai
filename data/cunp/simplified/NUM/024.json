@@ -6,7 +6,7 @@
   "book_code": "NUM",
   "book_name": "民数记",
   "chapter": 24,
-  "heading": "巴兰末次预言",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/NUM/24/",
   "verses": [
     {
@@ -78,6 +78,9 @@
     },
     {
       "verse": 14,
+      "section_headings": [
+        "巴兰末次预言"
+      ],
       "text": "「现在我要回本族去。你来，我告诉你这民日后要怎样待你的民。」",
       "notes": []
     },

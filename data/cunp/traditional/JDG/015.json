@@ -6,7 +6,7 @@
   "book_code": "JDG",
   "book_name": "士師記",
   "chapter": 15,
-  "heading": "參孫擊敗非利士人",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/JDG/15/",
   "verses": [
     {
@@ -53,6 +53,9 @@
     },
     {
       "verse": 9,
+      "section_headings": [
+        "參孫擊敗非利士人"
+      ],
       "text": "非利士人上去安營在猶大，布散在利希。",
       "notes": []
     },

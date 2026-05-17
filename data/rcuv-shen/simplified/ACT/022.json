@@ -6,7 +6,7 @@
   "book_code": "ACT",
   "book_name": "使徒行传",
   "chapter": 22,
-  "heading": "保罗叙述归主的经过",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/ACT/22/",
   "verses": [
     {
@@ -36,6 +36,9 @@
     },
     {
       "verse": 6,
+      "section_headings": [
+        "保罗叙述归主的经过"
+      ],
       "text": "“当我走近大马士革的时候，约在中午，忽然有一道大光从天上下来，照射在我周围。",
       "notes": []
     },

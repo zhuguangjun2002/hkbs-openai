@@ -6,7 +6,7 @@
   "book_code": "HEB",
   "book_name": "希伯來書",
   "chapter": 4,
-  "heading": "大祭司耶穌",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/HEB/4/",
   "verses": [
     {
@@ -78,6 +78,9 @@
     },
     {
       "verse": 14,
+      "section_headings": [
+        "大祭司耶穌"
+      ],
       "text": "我們既然有一位已經升入高天尊榮的大祭司，就是神的兒子耶穌，便當持定所承認的道。",
       "notes": []
     },

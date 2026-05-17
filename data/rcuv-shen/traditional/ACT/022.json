@@ -6,7 +6,7 @@
   "book_code": "ACT",
   "book_name": "使徒行傳",
   "chapter": 22,
-  "heading": "保羅敘述歸主的經過",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/ACT/22/",
   "verses": [
     {
@@ -36,6 +36,9 @@
     },
     {
       "verse": 6,
+      "section_headings": [
+        "保羅敘述歸主的經過"
+      ],
       "text": "「當我走近大馬士革的時候，約在中午，忽然有一道大光從天上下來，照射在我周圍。",
       "notes": []
     },

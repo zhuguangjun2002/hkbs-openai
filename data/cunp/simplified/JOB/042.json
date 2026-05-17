@@ -6,7 +6,7 @@
   "book_code": "JOB",
   "book_name": "约伯记",
   "chapter": 42,
-  "heading": "结尾",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/JOB/42/",
   "verses": [
     {
@@ -43,6 +43,9 @@
     },
     {
       "verse": 7,
+      "section_headings": [
+        "结尾"
+      ],
       "text": "耶和华对约伯说话以后，就对提幔人以利法说：「我的怒气向你和你两个朋友发作，因为你们议论我不如我的仆人约伯说的是。",
       "notes": []
     },

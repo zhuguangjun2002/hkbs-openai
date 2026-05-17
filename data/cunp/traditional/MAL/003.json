@@ -6,7 +6,7 @@
   "book_code": "MAL",
   "book_name": "瑪拉基書",
   "chapter": 3,
-  "heading": "十分之一捐獻",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/MAL/3/",
   "verses": [
     {
@@ -36,6 +36,9 @@
     },
     {
       "verse": 6,
+      "section_headings": [
+        "十分之一捐獻"
+      ],
       "text": "「因我－耶和華是不改變的，所以你們雅各之子沒有滅亡。",
       "notes": []
     },

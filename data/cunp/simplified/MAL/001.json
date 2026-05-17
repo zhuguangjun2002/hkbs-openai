@@ -6,7 +6,7 @@
   "book_code": "MAL",
   "book_name": "玛拉基书",
   "chapter": 1,
-  "heading": "耶和华爱以色列",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/MAL/1/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "耶和华爱以色列"
+      ],
       "text": "耶和华说：「我曾爱你们。」你们却说：「你在何事上爱我们呢？」耶和华说：「以扫不是雅各的哥哥吗？我却爱雅各，",
       "notes": []
     },

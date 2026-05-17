@@ -6,7 +6,7 @@
   "book_code": "2TI",
   "book_name": "提摩太後書",
   "chapter": 4,
-  "heading": "私事的囑咐",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/2TI/4/",
   "verses": [
     {
@@ -51,6 +51,9 @@
     },
     {
       "verse": 9,
+      "section_headings": [
+        "私事的囑咐"
+      ],
       "text": "你要趕緊地到我這裏來。",
       "notes": []
     },

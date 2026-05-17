@@ -6,7 +6,7 @@
   "book_code": "JER",
   "book_name": "耶利米書",
   "chapter": 1,
-  "heading": "耶利米蒙選召",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/JER/1/",
   "verses": [
     {
@@ -26,6 +26,9 @@
     },
     {
       "verse": 4,
+      "section_headings": [
+        "耶利米蒙選召"
+      ],
       "text": "耶利米說，耶和華的話臨到我，說：",
       "notes": []
     },

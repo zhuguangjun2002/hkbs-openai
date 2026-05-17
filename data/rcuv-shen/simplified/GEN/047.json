@@ -6,7 +6,7 @@
   "book_code": "GEN",
   "book_name": "创世记",
   "chapter": 47,
-  "heading": "严重的饥荒",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/GEN/47/",
   "verses": [
     {
@@ -71,6 +71,9 @@
     },
     {
       "verse": 13,
+      "section_headings": [
+        "严重的饥荒"
+      ],
       "text": "饥荒非常严重，全地都绝了粮，埃及地和迦南地都因饥荒耗损了。",
       "notes": []
     },

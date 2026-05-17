@@ -6,7 +6,7 @@
   "book_code": "NEH",
   "book_name": "尼希米记",
   "chapter": 7,
-  "heading": "被掳归回者的名单",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/NEH/7/",
   "verses": [
     {
@@ -31,6 +31,9 @@
     },
     {
       "verse": 5,
+      "section_headings": [
+        "被掳归回者的名单"
+      ],
       "text": "我的神感动我的心，我就召集贵族、官长和百姓，要登记家谱。我找到第一次上来之人的家谱，发现上面写着：",
       "notes": []
     },

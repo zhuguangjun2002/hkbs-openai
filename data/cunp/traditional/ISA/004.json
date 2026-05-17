@@ -6,7 +6,7 @@
   "book_code": "ISA",
   "book_name": "以賽亞書",
   "chapter": 4,
-  "heading": "耶路撒冷的重建",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/ISA/4/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "耶路撒冷的重建"
+      ],
       "text": "到那日，耶和華發生的苗必華美尊榮，地的出產必為以色列逃脫的人顯為榮華茂盛。",
       "notes": []
     },

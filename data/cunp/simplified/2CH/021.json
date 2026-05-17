@@ -6,7 +6,7 @@
   "book_code": "2CH",
   "book_name": "历代志下",
   "chapter": 21,
-  "heading": "犹大王约兰",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/2CH/21/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "犹大王约兰"
+      ],
       "text": "约兰有几个兄弟，就是约沙法的儿子亚撒利雅、耶歇、撒迦利雅、亚撒利雅、米迦勒、示法提雅。这都是犹大王约沙法的儿子。",
       "notes": []
     },

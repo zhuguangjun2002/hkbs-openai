@@ -6,7 +6,7 @@
   "book_code": "MIC",
   "book_name": "弥迦书",
   "chapter": 5,
-  "heading": "神应许一位掌权者出于伯利恒",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/MIC/5/",
   "verses": [
     {
@@ -18,6 +18,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "神应许一位掌权者出于伯利恒"
+      ],
       "text": "伯利恒的以法他啊，你在犹大诸城中虽小，将来必有一位从你那里出来，在以色列中为我作掌权者；他的根源自亘古，从太初就有。",
       "notes": []
     },

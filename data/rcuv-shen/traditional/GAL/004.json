@@ -6,7 +6,7 @@
   "book_code": "GAL",
   "book_name": "加拉太書",
   "chapter": 4,
-  "heading": "保羅關懷加拉太人",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/GAL/4/",
   "verses": [
     {
@@ -50,6 +50,9 @@
     },
     {
       "verse": 8,
+      "section_headings": [
+        "保羅關懷加拉太人"
+      ],
       "text": "但從前不認識神的時候，你們是給那些本來不是神的神明作奴隸；",
       "notes": []
     },

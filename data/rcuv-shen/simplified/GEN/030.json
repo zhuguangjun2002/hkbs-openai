@@ -6,7 +6,7 @@
   "book_code": "GEN",
   "book_name": "创世记",
   "chapter": 30,
-  "heading": "雅各和拉班定工资",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/GEN/30/",
   "verses": [
     {
@@ -149,6 +149,9 @@
     },
     {
       "verse": 25,
+      "section_headings": [
+        "雅各和拉班定工资"
+      ],
       "text": "拉结生约瑟之后，雅各对拉班说：“请让我走，回到我的本乡本土去。",
       "notes": []
     },

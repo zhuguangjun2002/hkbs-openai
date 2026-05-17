@@ -6,7 +6,7 @@
   "book_code": "1CH",
   "book_name": "歷代志上",
   "chapter": 22,
-  "heading": "籌備建殿",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/1CH/22/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "籌備建殿"
+      ],
       "text": "大衛吩咐人召集住以色列地的寄居者，又派石匠鑿石頭，要建造神的殿。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "JER",
   "book_name": "耶利米書",
   "chapter": 9,
-  "heading": "耶路撒冷哀求援助",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/JER/9/",
   "verses": [
     {
@@ -97,6 +97,9 @@
     },
     {
       "verse": 17,
+      "section_headings": [
+        "耶路撒冷哀求援助"
+      ],
       "text": "萬軍之耶和華如此說：「你們要考慮，將唱哀歌的婦女召來，差人召善哭的婦女前來，",
       "notes": []
     },

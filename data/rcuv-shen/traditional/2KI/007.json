@@ -6,7 +6,7 @@
   "book_code": "2KI",
   "book_name": "列王紀下",
   "chapter": 7,
-  "heading": "亞蘭軍隊棄營逃命",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/2KI/7/",
   "verses": [
     {
@@ -21,6 +21,9 @@
     },
     {
       "verse": 3,
+      "section_headings": [
+        "亞蘭軍隊棄營逃命"
+      ],
       "text": "在城門口有四個長痲瘋的人，他們彼此說：「我們為何坐在這裏等死呢？",
       "notes": []
     },

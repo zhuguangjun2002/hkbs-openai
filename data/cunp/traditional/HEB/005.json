@@ -6,7 +6,7 @@
   "book_code": "HEB",
   "book_name": "希伯來書",
   "chapter": 5,
-  "heading": "警戒叛道的人",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/HEB/5/",
   "verses": [
     {
@@ -63,6 +63,9 @@
     },
     {
       "verse": 11,
+      "section_headings": [
+        "警戒叛道的人"
+      ],
       "text": "論到麥基洗德，我們有好些話，並且難以解明，因為你們聽不進去。",
       "notes": []
     },

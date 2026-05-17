@@ -6,7 +6,7 @@
   "book_code": "ECC",
   "book_name": "傳道書",
   "chapter": 12,
-  "heading": "結論",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/ECC/12/",
   "verses": [
     {
@@ -53,6 +53,9 @@
     },
     {
       "verse": 9,
+      "section_headings": [
+        "結論"
+      ],
       "text": "再者，傳道者因有智慧，將知識教導眾人；他思量，考察，並列舉出許多箴言。",
       "notes": []
     },

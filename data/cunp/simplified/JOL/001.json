@@ -6,7 +6,7 @@
   "book_code": "JOL",
   "book_name": "约珥书",
   "chapter": 1,
-  "heading": "百姓因收成受损坏而悲伤",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/JOL/1/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "百姓因收成受损坏而悲伤"
+      ],
       "text": "老年人哪，当听我的话；国中的居民哪，都要侧耳而听。在你们的日子，或你们列祖的日子，曾有这样的事吗？",
       "notes": []
     },

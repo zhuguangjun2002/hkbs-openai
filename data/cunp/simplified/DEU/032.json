@@ -6,7 +6,7 @@
   "book_code": "DEU",
   "book_name": "申命记",
   "chapter": 32,
-  "heading": "摩西的最后训言",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/DEU/32/",
   "verses": [
     {
@@ -231,6 +231,9 @@
     },
     {
       "verse": 45,
+      "section_headings": [
+        "摩西的最后训言"
+      ],
       "text": "摩西向以色列众人说完了这一切的话，",
       "notes": []
     },

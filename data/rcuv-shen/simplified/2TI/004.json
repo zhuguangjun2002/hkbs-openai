@@ -6,7 +6,7 @@
   "book_code": "2TI",
   "book_name": "提摩太后书",
   "chapter": 4,
-  "heading": "最后的吩咐",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/2TI/4/",
   "verses": [
     {
@@ -51,6 +51,9 @@
     },
     {
       "verse": 9,
+      "section_headings": [
+        "最后的吩咐"
+      ],
       "text": "你要赶紧到我这里来。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "GEN",
   "book_name": "創世記",
   "chapter": 47,
-  "heading": "饑荒",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/GEN/47/",
   "verses": [
     {
@@ -71,6 +71,9 @@
     },
     {
       "verse": 13,
+      "section_headings": [
+        "饑荒"
+      ],
       "text": "饑荒甚大，全地都絕了糧，甚至埃及地和迦南地的人因那饑荒的緣故都餓昏了。",
       "notes": []
     },

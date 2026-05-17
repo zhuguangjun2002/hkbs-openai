@@ -6,7 +6,7 @@
   "book_code": "COL",
   "book_name": "歌羅西書",
   "chapter": 2,
-  "heading": "基督裏生命的豐盛",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/COL/2/",
   "verses": [
     {
@@ -36,6 +36,9 @@
     },
     {
       "verse": 6,
+      "section_headings": [
+        "基督裏生命的豐盛"
+      ],
       "text": "你們既然接受了主基督耶穌，就當遵他而行，",
       "notes": []
     },

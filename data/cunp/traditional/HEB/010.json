@@ -6,7 +6,7 @@
   "book_code": "HEB",
   "book_name": "希伯來書",
   "chapter": 10,
-  "heading": "勸勉和警告",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/HEB/10/",
   "verses": [
     {
@@ -101,6 +101,9 @@
     },
     {
       "verse": 19,
+      "section_headings": [
+        "勸勉和警告"
+      ],
       "text": "弟兄們，我們既因耶穌的血得以坦然進入至聖所，",
       "notes": []
     },

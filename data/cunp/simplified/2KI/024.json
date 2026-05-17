@@ -6,7 +6,7 @@
   "book_code": "2KI",
   "book_name": "列王纪下",
   "chapter": 24,
-  "heading": "犹大王约雅斤",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/2KI/24/",
   "verses": [
     {
@@ -46,6 +46,9 @@
     },
     {
       "verse": 8,
+      "section_headings": [
+        "犹大王约雅斤"
+      ],
       "text": "约雅斤登基的时候年十八岁，在耶路撒冷作王三个月。他母亲名叫尼护施她，是耶路撒冷人以利拿单的女儿。",
       "notes": []
     },

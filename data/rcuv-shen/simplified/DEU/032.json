@@ -6,7 +6,7 @@
   "book_code": "DEU",
   "book_name": "申命记",
   "chapter": 32,
-  "heading": "预告摩西的死",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/DEU/32/",
   "verses": [
     {
@@ -267,6 +267,9 @@
     },
     {
       "verse": 48,
+      "section_headings": [
+        "预告摩西的死"
+      ],
       "text": "就在那日，耶和华吩咐摩西说：",
       "notes": []
     },

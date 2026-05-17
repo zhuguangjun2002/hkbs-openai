@@ -6,7 +6,7 @@
   "book_code": "GEN",
   "book_name": "創世記",
   "chapter": 50,
-  "heading": "約瑟安慰哥哥們",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/GEN/50/",
   "verses": [
     {
@@ -81,6 +81,9 @@
     },
     {
       "verse": 15,
+      "section_headings": [
+        "約瑟安慰哥哥們"
+      ],
       "text": "約瑟的哥哥們見父親死了，就說：「或者約瑟懷恨我們，照著我們從前待他一切的惡足足地報復我們。」",
       "notes": []
     },

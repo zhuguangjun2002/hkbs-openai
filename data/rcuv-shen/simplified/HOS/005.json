@@ -6,7 +6,7 @@
   "book_code": "HOS",
   "book_name": "何西阿书",
   "chapter": 5,
-  "heading": "何西阿警告拜偶像的人",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/HOS/5/",
   "verses": [
     {
@@ -28,6 +28,9 @@
     },
     {
       "verse": 4,
+      "section_headings": [
+        "何西阿警告拜偶像的人"
+      ],
       "text": "他们所做的使他们不能归向神，因有淫乱的心在他们里面；他们不认识耶和华。",
       "notes": []
     },

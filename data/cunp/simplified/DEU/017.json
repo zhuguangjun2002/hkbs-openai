@@ -6,7 +6,7 @@
   "book_code": "DEU",
   "book_name": "申命记",
   "chapter": 17,
-  "heading": "有关立王的指示",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/DEU/17/",
   "verses": [
     {
@@ -76,6 +76,9 @@
     },
     {
       "verse": 14,
+      "section_headings": [
+        "有关立王的指示"
+      ],
       "text": "「到了耶和华—你神所赐你的地，得了那地居住的时候，若说：『我要立王治理我，像四围的国一样。』",
       "notes": []
     },

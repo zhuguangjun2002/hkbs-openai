@@ -6,7 +6,7 @@
   "book_code": "JOB",
   "book_name": "約伯記",
   "chapter": 42,
-  "heading": "結尾",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/JOB/42/",
   "verses": [
     {
@@ -43,6 +43,9 @@
     },
     {
       "verse": 7,
+      "section_headings": [
+        "結尾"
+      ],
       "text": "耶和華對約伯說話以後，耶和華就對提幔人以利法說：「我的怒氣向你和你兩個朋友發作，因為你們議論我，不如我的僕人約伯說的正確。",
       "notes": []
     },

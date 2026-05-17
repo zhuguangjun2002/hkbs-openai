@@ -6,7 +6,7 @@
   "book_code": "GAL",
   "book_name": "加拉太书",
   "chapter": 4,
-  "heading": "保罗关怀加拉太人",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/GAL/4/",
   "verses": [
     {
@@ -50,6 +50,9 @@
     },
     {
       "verse": 8,
+      "section_headings": [
+        "保罗关怀加拉太人"
+      ],
       "text": "但从前不认识神的时候，你们是给那些本来不是神的神明作奴隶；",
       "notes": []
     },

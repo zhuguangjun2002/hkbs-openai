@@ -6,7 +6,7 @@
   "book_code": "1SA",
   "book_name": "撒母耳记上",
   "chapter": 7,
-  "heading": "撒母耳统治以色列",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/1SA/7/",
   "verses": [
     {
@@ -21,6 +21,9 @@
     },
     {
       "verse": 3,
+      "section_headings": [
+        "撒母耳统治以色列"
+      ],
       "text": "撒母耳对以色列全家说：「你们若一心归顺耶和华，就要把外邦的神和亚斯她录从你们中间除掉，专心归向耶和华，单单地事奉他。他必救你们脱离非利士人的手。」",
       "notes": []
     },

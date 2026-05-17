@@ -6,7 +6,7 @@
   "book_code": "AMO",
   "book_name": "阿摩司书",
   "chapter": 1,
-  "heading": "神审判以色列的邻国",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/AMO/1/",
   "verses": [
     {
@@ -21,6 +21,9 @@
     },
     {
       "verse": 3,
+      "section_headings": [
+        "神审判以色列的邻国"
+      ],
       "text": "耶和华如此说：大马士革三番四次地犯罪，我必不免去她的刑罚；因为她以打粮食的铁器打过基列。",
       "notes": []
     },

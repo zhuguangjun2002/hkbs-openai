@@ -6,7 +6,7 @@
   "book_code": "JHN",
   "book_name": "約翰福音",
   "chapter": 19,
-  "heading": "耶穌被釘十字架",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/JHN/19/",
   "verses": [
     {
@@ -93,6 +93,9 @@
     },
     {
       "verse": 17,
+      "section_headings": [
+        "耶穌被釘十字架"
+      ],
       "text": "他們就把耶穌帶了去。耶穌背著自己的十字架出來，到了一個地方，名叫「髑髏地」，希伯來話叫各各他。",
       "notes": []
     },

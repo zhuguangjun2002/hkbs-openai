@@ -6,7 +6,7 @@
   "book_code": "1JN",
   "book_name": "约翰一书",
   "chapter": 3,
-  "heading": "彼此相爱",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/1JN/3/",
   "verses": [
     {
@@ -67,6 +67,9 @@
     },
     {
       "verse": 11,
+      "section_headings": [
+        "彼此相爱"
+      ],
       "text": "我们要彼此相爱。这就是你们从起初所听到的信息。",
       "notes": []
     },

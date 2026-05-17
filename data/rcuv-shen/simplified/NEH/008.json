@@ -6,7 +6,7 @@
   "book_code": "NEH",
   "book_name": "尼希米记",
   "chapter": 8,
-  "heading": "住棚节",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/NEH/8/",
   "verses": [
     {
@@ -71,6 +71,9 @@
     },
     {
       "verse": 13,
+      "section_headings": [
+        "住棚节"
+      ],
       "text": "次日，众百姓的族长、祭司和利未人都聚集到以斯拉文士那里，要明白律法书上的话。",
       "notes": []
     },

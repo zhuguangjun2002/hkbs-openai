@@ -6,7 +6,7 @@
   "book_code": "1TH",
   "book_name": "帖撒罗尼迦前书",
   "chapter": 5,
-  "heading": "最后的劝勉与祝福",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/1TH/5/",
   "verses": [
     {
@@ -66,6 +66,9 @@
     },
     {
       "verse": 12,
+      "section_headings": [
+        "最后的劝勉与祝福"
+      ],
       "text": "弟兄们，我们劝你们敬重那在你们中间劳苦的人，就是在主里面治理你们、劝戒你们的；",
       "notes": []
     },

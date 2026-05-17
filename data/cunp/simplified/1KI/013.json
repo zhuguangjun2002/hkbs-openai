@@ -6,7 +6,7 @@
   "book_code": "1KI",
   "book_name": "列王纪上",
   "chapter": 13,
-  "heading": "伯特利的老先知",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/1KI/13/",
   "verses": [
     {
@@ -61,6 +61,9 @@
     },
     {
       "verse": 11,
+      "section_headings": [
+        "伯特利的老先知"
+      ],
       "text": "有一个老先知住在伯特利，他儿子们来，将神人当日在伯特利所行的一切事和向王所说的话都告诉了父亲。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "GEN",
   "book_name": "创世记",
   "chapter": 50,
-  "heading": "约瑟安慰哥哥们",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/GEN/50/",
   "verses": [
     {
@@ -83,6 +83,9 @@
     },
     {
       "verse": 15,
+      "section_headings": [
+        "约瑟安慰哥哥们"
+      ],
       "text": "约瑟的哥哥们见父亲死了，就说：“也许约瑟仍然怀恨我们，会照我们从前待他一切的恶，重重报复我们。”",
       "notes": []
     },

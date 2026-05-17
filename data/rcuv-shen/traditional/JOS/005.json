@@ -6,7 +6,7 @@
   "book_code": "JOS",
   "book_name": "約書亞記",
   "chapter": 5,
-  "heading": "在吉甲行割禮",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/JOS/5/",
   "verses": [
     {
@@ -18,6 +18,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "在吉甲行割禮"
+      ],
       "text": "那時，耶和華對約書亞說：「你要造火石刀，第二次為以色列人行割禮。」",
       "notes": []
     },

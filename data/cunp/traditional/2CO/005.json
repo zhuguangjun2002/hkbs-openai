@@ -6,7 +6,7 @@
   "book_code": "2CO",
   "book_name": "哥林多後書",
   "chapter": 5,
-  "heading": "勸人與神和好的職分",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/2CO/5/",
   "verses": [
     {
@@ -63,6 +63,9 @@
     },
     {
       "verse": 11,
+      "section_headings": [
+        "勸人與神和好的職分"
+      ],
       "text": "我們既知道主是可畏的，所以勸人。但我們在神面前是顯明的，盼望在你們的良心裏也是顯明的。",
       "notes": []
     },

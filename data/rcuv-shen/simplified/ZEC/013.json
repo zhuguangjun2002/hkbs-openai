@@ -6,7 +6,7 @@
   "book_code": "ZEC",
   "book_name": "撒迦利亚书",
   "chapter": 13,
-  "heading": "牧人被杀",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/ZEC/13/",
   "verses": [
     {
@@ -41,6 +41,9 @@
     },
     {
       "verse": 7,
+      "section_headings": [
+        "牧人被杀"
+      ],
       "text": "万军之耶和华说：刀剑哪，兴起攻击我的牧人，攻击我的同伴吧！要击打牧人，羊就分散了；我必反手攻击那微小的。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "LUK",
   "book_name": "路加福音",
   "chapter": 1,
-  "heading": "预言施洗约翰的出生",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/LUK/1/",
   "verses": [
     {
@@ -22,6 +22,9 @@
     },
     {
       "verse": 5,
+      "section_headings": [
+        "预言施洗约翰的出生"
+      ],
       "text": "在希律作犹太王的时候，亚比雅班里有一个祭司，名叫撒迦利亚；他妻子是亚伦的后代，名叫伊利莎白。",
       "notes": []
     },

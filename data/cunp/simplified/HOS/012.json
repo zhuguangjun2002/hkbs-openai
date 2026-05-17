@@ -6,7 +6,7 @@
   "book_code": "HOS",
   "book_name": "何西阿书",
   "chapter": 12,
-  "heading": "其他的判词",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/HOS/12/",
   "verses": [
     {
@@ -37,6 +37,9 @@
     },
     {
       "verse": 7,
+      "section_headings": [
+        "其他的判词"
+      ],
       "text": "以法莲是商人，手里有诡诈的天平，爱行欺骗。",
       "notes": []
     },

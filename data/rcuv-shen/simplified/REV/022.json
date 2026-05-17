@@ -6,7 +6,7 @@
   "book_code": "REV",
   "book_name": "启示录",
   "chapter": 22,
-  "heading": "基督来临",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/REV/22/",
   "verses": [
     {
@@ -38,6 +38,9 @@
     },
     {
       "verse": 6,
+      "section_headings": [
+        "基督来临"
+      ],
       "text": "天使又对我说：“这些话是可信靠的，是真实的。主，就是赐灵感给众先知的神，差遣他的使者，要将必须快要发生的事指示他的众仆人。”",
       "notes": []
     },

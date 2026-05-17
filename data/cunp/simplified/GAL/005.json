@@ -6,7 +6,7 @@
   "book_code": "GAL",
   "book_name": "加拉太书",
   "chapter": 5,
-  "heading": "基督徒的自由",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/GAL/5/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "基督徒的自由"
+      ],
       "text": "我—保罗告诉你们，若受割礼，基督就与你们无益了。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "HOS",
   "book_name": "何西阿书",
   "chapter": 12,
-  "heading": "续论以色列",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/HOS/12/",
   "verses": [
     {
@@ -43,6 +43,9 @@
     },
     {
       "verse": 7,
+      "section_headings": [
+        "续论以色列"
+      ],
       "text": "商人手持诡诈的天平，喜爱欺压。",
       "notes": [
         "“商人”或译“迦南”。"

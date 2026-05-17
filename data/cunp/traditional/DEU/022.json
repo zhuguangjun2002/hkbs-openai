@@ -6,7 +6,7 @@
   "book_code": "DEU",
   "book_name": "申命記",
   "chapter": 22,
-  "heading": "有關貞潔的條例",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/DEU/22/",
   "verses": [
     {
@@ -71,6 +71,9 @@
     },
     {
       "verse": 13,
+      "section_headings": [
+        "有關貞潔的條例"
+      ],
       "text": "「人若娶妻，與她同房之後恨惡她，",
       "notes": []
     },

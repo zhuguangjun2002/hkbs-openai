@@ -6,7 +6,7 @@
   "book_code": "SNG",
   "book_name": "雅歌",
   "chapter": 5,
-  "heading": "第四首",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/SNG/5/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "第四首"
+      ],
       "text": "我身睡臥，我心卻醒。這是我良人的聲音；他敲門說：我的妹子，我的佳偶，我的鴿子，我的完全人，求你給我開門；因我的頭滿了露水，我的頭髮被夜露滴濕。",
       "notes": []
     },

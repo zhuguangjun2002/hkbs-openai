@@ -6,7 +6,7 @@
   "book_code": "ROM",
   "book_name": "罗马书",
   "chapter": 10,
-  "heading": "求告主名的必定得救",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/ROM/10/",
   "verses": [
     {
@@ -31,6 +31,9 @@
     },
     {
       "verse": 5,
+      "section_headings": [
+        "求告主名的必定得救"
+      ],
       "text": "论到出于律法的义，摩西写着：“行这些事的人，就必因此得生。”",
       "notes": []
     },

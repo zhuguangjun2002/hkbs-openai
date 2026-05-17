@@ -6,7 +6,7 @@
   "book_code": "1SA",
   "book_name": "撒母耳记上",
   "chapter": 18,
-  "heading": "扫罗妒忌大卫",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/1SA/18/",
   "verses": [
     {
@@ -36,6 +36,9 @@
     },
     {
       "verse": 6,
+      "section_headings": [
+        "扫罗妒忌大卫"
+      ],
       "text": "大卫打死了那非利士人，同众人回来的时候，妇女们从以色列各城里出来，欢欢喜喜，打鼓击磬，歌唱跳舞，迎接扫罗王。",
       "notes": []
     },

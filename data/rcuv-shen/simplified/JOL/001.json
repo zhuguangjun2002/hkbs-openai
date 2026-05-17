@@ -6,7 +6,7 @@
   "book_code": "JOL",
   "book_name": "约珥书",
   "chapter": 1,
-  "heading": "百姓的悲伤",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/JOL/1/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "百姓的悲伤"
+      ],
       "text": "老年人哪，当听这话；这地所有的居民哪，要侧耳而听。在你们的日子，或你们祖先的日子，曾发生过这样的事吗？",
       "notes": []
     },

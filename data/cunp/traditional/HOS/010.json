@@ -6,7 +6,7 @@
   "book_code": "HOS",
   "book_name": "何西阿書",
   "chapter": 10,
-  "heading": "神審判以色列",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/HOS/10/",
   "verses": [
     {
@@ -51,6 +51,9 @@
     },
     {
       "verse": 9,
+      "section_headings": [
+        "神審判以色列"
+      ],
       "text": "以色列啊，你從基比亞的日子以來時常犯罪。你們的先人曾站在那裏，現今住基比亞的人以為攻擊罪孽之輩的戰事臨不到自己。",
       "notes": []
     },

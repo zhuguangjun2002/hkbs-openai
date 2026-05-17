@@ -6,7 +6,7 @@
   "book_code": "COL",
   "book_name": "歌罗西书",
   "chapter": 4,
-  "heading": "劝导",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/COL/4/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "劝导"
+      ],
       "text": "你们要恒切祷告，在祷告中警醒感恩。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "2CH",
   "book_name": "歷代志下",
   "chapter": 3,
-  "heading": "兩根銅柱",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/2CH/3/",
   "verses": [
     {
@@ -81,6 +81,9 @@
     },
     {
       "verse": 15,
+      "section_headings": [
+        "兩根銅柱"
+      ],
       "text": "在殿前造了兩根柱子，高三十五肘；每柱頂高五肘。",
       "notes": []
     },

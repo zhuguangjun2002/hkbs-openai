@@ -6,7 +6,7 @@
   "book_code": "2KI",
   "book_name": "列王纪下",
   "chapter": 7,
-  "heading": "亚兰军队弃营逃命",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/2KI/7/",
   "verses": [
     {
@@ -21,6 +21,9 @@
     },
     {
       "verse": 3,
+      "section_headings": [
+        "亚兰军队弃营逃命"
+      ],
       "text": "在城门口有四个长麻风的人，他们彼此说：“我们为何坐在这里等死呢？",
       "notes": []
     },

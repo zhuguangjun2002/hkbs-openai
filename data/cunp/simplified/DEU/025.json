@@ -6,7 +6,7 @@
   "book_code": "DEU",
   "book_name": "申命记",
   "chapter": 25,
-  "heading": "对丧亡的弟兄传宗接代",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/DEU/25/",
   "verses": [
     {
@@ -31,6 +31,9 @@
     },
     {
       "verse": 5,
+      "section_headings": [
+        "对丧亡的弟兄传宗接代"
+      ],
       "text": "「弟兄同居，若死了一个，没有儿子，死人的妻不可出嫁外人，她丈夫的兄弟当尽弟兄的本分，娶她为妻，与她同房。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "MRK",
   "book_name": "馬可福音",
   "chapter": 9,
-  "heading": "耶穌改變形像",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/MRK/9/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "耶穌改變形像"
+      ],
       "text": "過了六天，耶穌帶著彼得、雅各、約翰暗暗地上了高山，就在他們面前變了形像，",
       "notes": []
     },

@@ -165,8 +165,9 @@ class ChapterParser(HTMLParser):
         if tag == "h3":
             heading = normalize_text("".join(self.heading_parts))
             if heading:
-                self.headings.append(heading)
-                if len(self.headings) > 1:
+                if not self.headings and self.current_num is None and not self.verses:
+                    self.headings.append(heading)
+                else:
                     self.pending_section_headings.append(heading)
             self.heading_parts = []
             self.in_heading = False

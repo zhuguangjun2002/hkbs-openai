@@ -6,7 +6,7 @@
   "book_code": "MAT",
   "book_name": "马太福音",
   "chapter": 11,
-  "heading": "施洗约翰的门徒来见耶稣",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/MAT/11/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "施洗约翰的门徒来见耶稣"
+      ],
       "text": "约翰在监狱里听见基督所做的事，就派他的门徒去，",
       "notes": []
     },

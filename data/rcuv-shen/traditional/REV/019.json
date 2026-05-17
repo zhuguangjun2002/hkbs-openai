@@ -6,7 +6,7 @@
   "book_code": "REV",
   "book_name": "啟示錄",
   "chapter": 19,
-  "heading": "羔羊的婚宴",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1/REV/19/",
   "verses": [
     {
@@ -33,6 +33,9 @@
     },
     {
       "verse": 5,
+      "section_headings": [
+        "羔羊的婚宴"
+      ],
       "text": "接著，有聲音從寶座出來說：「神的眾僕人哪，凡敬畏他的，無論大小，都要讚美我們的神！」",
       "notes": []
     },

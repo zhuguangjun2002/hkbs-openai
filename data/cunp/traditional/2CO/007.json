@@ -6,7 +6,7 @@
   "book_code": "2CO",
   "book_name": "哥林多後書",
   "chapter": 7,
-  "heading": "保羅為教會悔改而歡樂",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/2CO/7/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "保羅為教會悔改而歡樂"
+      ],
       "text": "你們要心地寬大收納我們。我們未曾虧負誰，未曾敗壞誰，未曾佔誰的便宜。",
       "notes": []
     },

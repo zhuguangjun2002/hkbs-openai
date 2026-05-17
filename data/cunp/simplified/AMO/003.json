@@ -6,7 +6,7 @@
   "book_code": "AMO",
   "book_name": "阿摩司书",
   "chapter": 3,
-  "heading": "先知的任务",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1s/AMO/3/",
   "verses": [
     {
@@ -21,6 +21,9 @@
     },
     {
       "verse": 3,
+      "section_headings": [
+        "先知的任务"
+      ],
       "text": "二人若不同心，岂能同行呢？",
       "notes": []
     },

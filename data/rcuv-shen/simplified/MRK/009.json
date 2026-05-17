@@ -6,7 +6,7 @@
   "book_code": "MRK",
   "book_name": "马可福音",
   "chapter": 9,
-  "heading": "耶稣登山显荣",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/MRK/9/",
   "verses": [
     {
@@ -16,6 +16,9 @@
     },
     {
       "verse": 2,
+      "section_headings": [
+        "耶稣登山显荣"
+      ],
       "text": "过了六天，耶稣带着彼得、雅各、约翰，领他们悄悄地上了高山。他在他们面前变了形像，",
       "notes": []
     },

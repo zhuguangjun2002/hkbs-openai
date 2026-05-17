@@ -6,7 +6,7 @@
   "book_code": "1CH",
   "book_name": "歷代志上",
   "chapter": 16,
-  "heading": "頌讚之歌",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/CUNP1/1CH/16/",
   "verses": [
     {
@@ -46,6 +46,9 @@
     },
     {
       "verse": 8,
+      "section_headings": [
+        "頌讚之歌"
+      ],
       "text": "你們要稱謝耶和華，求告他的名，在萬民中傳揚他的作為！",
       "notes": []
     },

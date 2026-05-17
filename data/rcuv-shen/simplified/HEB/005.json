@@ -6,7 +6,7 @@
   "book_code": "HEB",
   "book_name": "希伯来书",
   "chapter": 5,
-  "heading": "警戒叛道的人",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/HEB/5/",
   "verses": [
     {
@@ -63,6 +63,9 @@
     },
     {
       "verse": 11,
+      "section_headings": [
+        "警戒叛道的人"
+      ],
       "text": "论到这事，我们有好些话要说，可是很难解释，因为你们听不进去。",
       "notes": []
     },

@@ -6,7 +6,7 @@
   "book_code": "1KI",
   "book_name": "列王纪上",
   "chapter": 16,
-  "heading": "以色列王以拉",
+  "heading": "",
   "source_url": "https://rcuv.hkbs.org.hk/RCUV1s/1KI/16/",
   "verses": [
     {
@@ -46,6 +46,9 @@
     },
     {
       "verse": 8,
+      "section_headings": [
+        "以色列王以拉"
+      ],
       "text": "犹大王亚撒第二十六年，巴沙的儿子以拉在得撒登基，作以色列王二年。",
       "notes": []
     },
