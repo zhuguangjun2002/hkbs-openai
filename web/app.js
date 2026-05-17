@@ -1,6 +1,7 @@
 (function () {
   const data = window.BIBLE_DATA;
   const state = {
+    translation: localStorage.getItem("bible-translation") || data.default_translation || "cunp",
     script: localStorage.getItem("bible-script") || "simplified",
     book: localStorage.getItem("bible-book") || "JHN",
     chapter: Number(localStorage.getItem("bible-chapter") || 3),
@@ -15,6 +16,9 @@
     bookList: document.getElementById("bookList"),
     bookSelect: document.getElementById("bookSelect"),
     chapterSelect: document.getElementById("chapterSelect"),
+    translationSelect: document.getElementById("translationSelect"),
+    brandShortName: document.getElementById("brandShortName"),
+    brandTitle: document.getElementById("brandTitle"),
     chapterTitle: document.getElementById("chapterTitle"),
     chapterSubtitle: document.getElementById("chapterSubtitle"),
     versionName: document.getElementById("versionName"),
@@ -27,7 +31,11 @@
     themeToggle: document.getElementById("themeToggle"),
   };
 
+  const translationById = new Map(data.translations.map((translation) => [translation.id, translation]));
   const bookByCode = new Map(data.books.map((book) => [book.code, book]));
+  if (!translationById.has(state.translation)) {
+    state.translation = data.default_translation || data.translations[0].id;
+  }
   const bookAliases = buildBookAliases();
   const searchScopeLabels = {
     all: "整本圣经",
@@ -41,8 +49,22 @@
     return book[script];
   }
 
-  function chapterData(bookCode = state.book, chapter = state.chapter, script = state.script) {
-    return data.chapters[script][bookCode][String(chapter)];
+  function currentTranslation() {
+    return translationById.get(state.translation) || data.translations[0];
+  }
+
+  function translationName(script = state.script) {
+    const translation = currentTranslation();
+    return translation.names[script] || translation.names.simplified;
+  }
+
+  function chapterData(
+    bookCode = state.book,
+    chapter = state.chapter,
+    script = state.script,
+    translation = state.translation,
+  ) {
+    return data.chapters[translation][script][bookCode][String(chapter)];
   }
 
   function otherScript() {
@@ -50,7 +72,7 @@
   }
 
   function pairedVerseText(bookCode, chapter, verse) {
-    const pairedChapter = chapterData(bookCode, chapter, otherScript());
+    const pairedChapter = chapterData(bookCode, chapter, otherScript(), state.translation);
     const pairedVerse = pairedChapter.verses.find((item) => (
       item.n === verse.n && verseSequence(item) === verseSequence(verse)
     )) || pairedChapter.verses.find((item) => item.n === verse.n);
@@ -179,6 +201,7 @@
   }
 
   function saveState() {
+    localStorage.setItem("bible-translation", state.translation);
     localStorage.setItem("bible-script", state.script);
     localStorage.setItem("bible-book", state.book);
     localStorage.setItem("bible-chapter", String(state.chapter));
@@ -260,6 +283,14 @@
     document.documentElement.lang = state.script === "simplified" ? "zh-Hans" : "zh-Hant";
   }
 
+  function renderTranslationSelect() {
+    els.translationSelect.innerHTML = data.translations.map((translation) => {
+      const selected = translation.id === state.translation ? " selected" : "";
+      const name = translation.names[state.script] || translation.names.simplified;
+      return `<option value="${translation.id}"${selected}>${escapeHtml(name)}</option>`;
+    }).join("");
+  }
+
   function renderBookSelect() {
     els.bookSelect.innerHTML = data.books.map((book) => {
       const selected = book.code === state.book ? " selected" : "";
@@ -290,7 +321,11 @@
     const book = bookByCode.get(state.book);
     const chapter = chapterData();
     const range = normalizeRange(targetRange);
-    els.versionName.textContent = state.script === "simplified" ? "新标点和合本" : "新標點和合本";
+    const translation = currentTranslation();
+    const versionName = translationName();
+    els.brandShortName.textContent = translation.short_name;
+    els.brandTitle.textContent = versionName;
+    els.versionName.textContent = versionName;
     els.chapterTitle.textContent = `${bookName(book)} ${state.chapter}`;
     els.chapterSubtitle.textContent = chapter.heading || "";
     els.verses.innerHTML = chapter.verses.map((verse) => {
@@ -327,6 +362,7 @@
 
   function renderAll(targetRange) {
     renderScriptButtons();
+    renderTranslationSelect();
     renderBookSelect();
     renderChapterSelect();
     renderBookList();
@@ -457,6 +493,11 @@
       state.script = button.dataset.script;
       renderAll();
     });
+  });
+
+  els.translationSelect.addEventListener("change", () => {
+    state.translation = els.translationSelect.value;
+    renderAll();
   });
 
   document.querySelectorAll("[data-search-scope]").forEach((button) => {

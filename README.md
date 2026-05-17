@@ -27,9 +27,8 @@ and are not included in this dataset.
 
 Current deployed state as of 2026-05-17:
 
-- CUNP data is available in the static web reader.
-- RCUV Shen data is extracted and committed, but is not yet exposed as a
-  selectable translation in the web reader.
+- CUNP and RCUV Shen are available as selectable translations in the static web
+  reader.
 - The extractor preserves source-level merged verse ranges with `verse_end`.
 - The extractor preserves duplicate source verse numbers with `sequence`.
 - Mid-verse headings from HKBS are not promoted into `section_headings`. For
@@ -197,8 +196,9 @@ https://zhuguangjun2002.github.io/hkbs-openai/
 Features:
 
 - chapter reading by book and chapter
+- translation switching between CUNP and RCUV Shen
 - simplified/traditional switching
-- CUNP reading data bundled from `data/cunp`
+- browser data bundled from `data/cunp` and `data/rcuv-shen`
 - full-text client-side search across simplified and traditional text
 - cross-script highlighting, such as searching `亞歷山大` while reading simplified text
 - search scopes: whole Bible, Old Testament, New Testament, or current book
@@ -206,7 +206,8 @@ Features:
 - highlighted search terms after opening a search result
 - light/dark theme
 
-Rebuild the browser data bundle after changing files under `data/cunp`:
+Rebuild the browser data bundle after changing files under `data/cunp` or
+`data/rcuv-shen`:
 
 ```bash
 python3 scripts/build_web_data.py
@@ -228,9 +229,8 @@ The site is deployed with GitHub Pages from `.github/workflows/pages.yml`.
 The workflow publishes the `web/` directory directly, so no npm install or
 build step is required.
 
-Next recommended web task: add a translation selector and include
-`data/rcuv-shen` in the browser data bundle so the live reader can switch
-between CUNP and RCUV Shen.
+Next recommended web task: add URL state for translation, script, passage, and
+search so shared links reopen the same reader state.
 
 ## Copyright
 

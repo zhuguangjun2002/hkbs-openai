@@ -134,12 +134,20 @@ h1 {
   font-weight: 700;
 }
 
+.translation-select,
 .search-box {
   display: grid;
   gap: 7px;
-  margin-bottom: 8px;
   color: var(--muted);
   font: 600 13px/1.2 ui-sans-serif, system-ui, sans-serif;
+}
+
+.translation-select {
+  margin-bottom: 14px;
+}
+
+.search-box {
+  margin-bottom: 8px;
 }
 
 .search-box input,

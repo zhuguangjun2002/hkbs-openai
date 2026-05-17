@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>和合本新标点读经</title>
-    <link rel="stylesheet" href="styles.css?v=20260516-2">
+    <title>中文圣经读经</title>
+    <link rel="stylesheet" href="styles.css?v=20260517-1">
   </head>
   <body>
     <div class="app-shell">
       <aside class="sidebar" aria-label="书卷">
         <div class="brand">
           <div>
-            <p class="eyebrow">CUNP</p>
-            <h1>和合本新标点</h1>
+            <p class="eyebrow" id="brandShortName">CUNP</p>
+            <h1 id="brandTitle">和合本新标点</h1>
           </div>
           <button class="icon-button" id="themeToggle" type="button" title="切换明暗模式" aria-label="切换明暗模式">◐</button>
         </div>
@@ -21,6 +21,11 @@
           <button id="simplifiedBtn" type="button" data-script="simplified">简体</button>
           <button id="traditionalBtn" type="button" data-script="traditional">繁體</button>
         </div>
+
+        <label class="translation-select">
+          <span>译本</span>
+          <select id="translationSelect"></select>
+        </label>
 
         <label class="search-box">
           <span>搜索</span>
@@ -74,7 +79,7 @@
       </main>
     </div>
 
-    <script src="data.js?v=20260516-2"></script>
-    <script src="app.js?v=20260516-2"></script>
+    <script src="data.js?v=20260517-1"></script>
+    <script src="app.js?v=20260517-1"></script>
   </body>
 </html>
