@@ -537,6 +537,24 @@
     if (ref) goTo(ref.book, ref.chapter);
   });
 
+  document.addEventListener("keydown", (event) => {
+    if (event.altKey || event.ctrlKey || event.metaKey) return;
+    if (event.target.closest("input, textarea, select")) return;
+    if (event.key === "ArrowLeft") {
+      const ref = previousRef();
+      if (ref) {
+        event.preventDefault();
+        goTo(ref.book, ref.chapter);
+      }
+    } else if (event.key === "ArrowRight") {
+      const ref = nextRef();
+      if (ref) {
+        event.preventDefault();
+        goTo(ref.book, ref.chapter);
+      }
+    }
+  });
+
   els.searchInput.addEventListener("input", () => {
     state.query = els.searchInput.value;
     window.clearTimeout(searchTimer);

@@ -224,6 +224,7 @@ Features:
 - search scopes: whole Bible, Old Testament, New Testament, or current book
 - reference jump support such as `约3:16`, `約3:16`, `约3:16-18`, or `JHN3:16`
 - highlighted search terms after opening a search result
+- keyboard navigation: left arrow for previous chapter, right arrow for next chapter
 - light/dark theme
 
 Rebuild the browser data bundle after changing files under `data/cunp` or
