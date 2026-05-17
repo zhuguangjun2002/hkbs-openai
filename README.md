@@ -38,6 +38,8 @@ Current deployed state as of 2026-05-17:
   is not rendered before 12:31; the verse text remains complete.
 - Source HTML caching is supported through `--cache-source` and `--from-cache`,
   so parser fixes can be rerun locally without downloading from HKBS again.
+- The static web reader supports keyboard chapter navigation: left arrow for
+  previous chapter, right arrow for next chapter, with cross-book wrap-around.
 
 The `data/cunp` directory contains a complete per-chapter extraction for both
 scripts:
