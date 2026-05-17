@@ -30,6 +30,8 @@ class Stats:
     bad_verse: int = 0
     bad_verse_order: int = 0
     bad_verse_end: int = 0
+    bad_sequence: int = 0
+    bad_section_headings: int = 0
     duplicate_verses: int = 0
     verse_end_files: int = 0
     verse_end_count: int = 0
@@ -142,6 +144,8 @@ def verify_chapter(path: Path, data: dict[str, Any], translation: str, stats: St
 
     previous_start: int | None = None
     file_has_verse_end = False
+    verse_counts: dict[int, int] = {}
+    verse_sequences: dict[int, list[int]] = {}
     for index, verse in enumerate(verses):
         if not isinstance(verse, dict):
             stats.add_error("bad_verse", f"{path}: verse #{index + 1} is not an object")
@@ -159,11 +163,30 @@ def verify_chapter(path: Path, data: dict[str, Any], translation: str, stats: St
         elif previous_start is not None and start == previous_start:
             stats.duplicate_verses += 1
         previous_start = start
+        verse_counts[start] = verse_counts.get(start, 0) + 1
 
         if "text" not in verse or not isinstance(verse.get("text"), str):
             stats.add_error("bad_verse", f"{path}: verse {start} has invalid text")
         if "notes" not in verse or not isinstance(verse.get("notes"), list):
             stats.add_error("bad_verse", f"{path}: verse {start} has invalid notes")
+        sequence = verse.get("sequence")
+        if sequence is not None:
+            if not isinstance(sequence, int) or sequence < 1:
+                stats.add_error(
+                    "bad_sequence",
+                    f"{path}: verse {start} has invalid sequence {sequence!r}",
+                )
+            else:
+                verse_sequences.setdefault(start, []).append(sequence)
+        section_headings = verse.get("section_headings")
+        if section_headings is not None and (
+            not isinstance(section_headings, list)
+            or not all(isinstance(item, str) and item for item in section_headings)
+        ):
+            stats.add_error(
+                "bad_section_headings",
+                f"{path}: verse {start} has invalid section_headings",
+            )
         if end is not None:
             file_has_verse_end = True
             stats.verse_end_count += 1
@@ -179,7 +202,28 @@ def verify_chapter(path: Path, data: dict[str, Any], translation: str, stats: St
     if file_has_verse_end:
         stats.verse_end_files += 1
 
+    verify_duplicate_sequences(path, verse_counts, verse_sequences, stats)
     count_gaps_without_ranges(path, verses, stats)
+
+
+def verify_duplicate_sequences(
+    path: Path,
+    verse_counts: dict[int, int],
+    verse_sequences: dict[int, list[int]],
+    stats: Stats,
+) -> None:
+    for verse, count in verse_counts.items():
+        sequences = verse_sequences.get(verse, [])
+        if count <= 1:
+            if sequences:
+                stats.add_error("bad_sequence", f"{path}: unique verse {verse} has sequence")
+            continue
+        expected = list(range(1, count + 1))
+        if sequences != expected:
+            stats.add_error(
+                "bad_sequence",
+                f"{path}: duplicate verse {verse} has sequences {sequences}, expected {expected}",
+            )
 
 
 def count_gaps_without_ranges(path: Path, verses: list[Any], stats: Stats) -> None:
@@ -211,7 +255,8 @@ def print_stats(root: Path, stats: Stats, max_errors: int) -> None:
         f"missing={stats.missing} invalid={stats.invalid} unexpected={stats.unexpected} "
         f"empty={stats.empty} metadata={stats.bad_metadata} path={stats.bad_path} "
         f"translation={stats.bad_translation} first={stats.bad_first} "
-        f"verse={stats.bad_verse} order={stats.bad_verse_order} verse_end={stats.bad_verse_end}"
+        f"verse={stats.bad_verse} order={stats.bad_verse_order} verse_end={stats.bad_verse_end} "
+        f"sequence={stats.bad_sequence} section_headings={stats.bad_section_headings}"
     )
     print(f"  verse_end: files={stats.verse_end_files} ranges={stats.verse_end_count}")
     print(f"  duplicate_verse_numbers: {stats.duplicate_verses}")

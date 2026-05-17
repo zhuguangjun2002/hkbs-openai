@@ -93,6 +93,24 @@ first verse in the range:
 Single verses omit `verse_end`. Gaps that remain without `verse_end` after
 source resync are source-level omitted verse numbers, not inferred ranges.
 
+If a source chapter contains duplicate verse numbers, each duplicate item keeps
+the original `verse` number and receives a 1-based `sequence` value. This keeps
+the source reference intact while allowing unique lookup by
+`book_code/chapter/verse/sequence`:
+
+```json
+{
+  "verse": 9,
+  "sequence": 1,
+  "section_headings": ["．有些古卷有下列结语．", "短结语："],
+  "text": "...",
+  "notes": []
+}
+```
+
+`section_headings` preserves source headings that appear immediately before a
+verse, such as the short and long endings in RCUV Shen Mark 16.
+
 ## Usage
 
 Fetch one CUNP chapter:

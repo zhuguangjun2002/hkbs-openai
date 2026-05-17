@@ -126,6 +126,7 @@ BOOK_BY_CODE = {code: (traditional, simplified, chapters) for code, traditional,
 class Verse:
     number: int
     end: int | None
+    section_headings: list[str]
     text: str
     notes: list[str]
 
@@ -138,6 +139,8 @@ class ChapterParser(HTMLParser):
         self.in_verse_text = False
         self.current_num: int | None = None
         self.current_end: int | None = None
+        self.pending_section_headings: list[str] = []
+        self.current_section_headings: list[str] = []
         self.current_text: list[str] = []
         self.current_notes: list[str] = []
         self.heading_parts: list[str] = []
@@ -163,6 +166,8 @@ class ChapterParser(HTMLParser):
             heading = normalize_text("".join(self.heading_parts))
             if heading:
                 self.headings.append(heading)
+                if len(self.headings) > 1:
+                    self.pending_section_headings.append(heading)
             self.heading_parts = []
             self.in_heading = False
         elif tag == "b":
@@ -181,6 +186,9 @@ class ChapterParser(HTMLParser):
                 if match.group(2):
                     self.current_end = int(match.group(2))
         elif self.in_verse_text:
+            if self.pending_section_headings and self.current_num is not None:
+                self.current_section_headings.extend(self.pending_section_headings)
+                self.pending_section_headings = []
             self.current_text.append(data)
 
     def close(self) -> None:
@@ -191,9 +199,18 @@ class ChapterParser(HTMLParser):
         if self.current_num is None:
             return
         text = normalize_text("".join(self.current_text))
-        self.verses.append(Verse(self.current_num, self.current_end, text, self.current_notes))
+        self.verses.append(
+            Verse(
+                self.current_num,
+                self.current_end,
+                self.current_section_headings,
+                text,
+                self.current_notes,
+            )
+        )
         self.current_num = None
         self.current_end = None
+        self.current_section_headings = []
         self.current_text = []
         self.current_notes = []
 
@@ -301,14 +318,32 @@ def chapter_record(
         "chapter": chapter,
         "heading": heading,
         "source_url": url,
-        "verses": [verse_record(verse) for verse in verses],
+        "verses": verse_records(verses),
     }
+
+
+def verse_records(verses: list[Verse]) -> list[dict]:
+    records = [verse_record(verse) for verse in verses]
+    totals: dict[int, int] = {}
+    for record in records:
+        totals[record["verse"]] = totals.get(record["verse"], 0) + 1
+
+    seen: dict[int, int] = {}
+    for index, record in enumerate(records):
+        verse = record["verse"]
+        if totals[verse] <= 1:
+            continue
+        seen[verse] = seen.get(verse, 0) + 1
+        records[index] = {"verse": verse, "sequence": seen[verse], **record}
+    return records
 
 
 def verse_record(verse: Verse) -> dict:
     record = {"verse": verse.number}
     if verse.end is not None and verse.end != verse.number:
         record["verse_end"] = verse.end
+    if verse.section_headings:
+        record["section_headings"] = verse.section_headings
     record["text"] = verse.text
     record["notes"] = verse.notes
     return record
