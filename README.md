@@ -1,5 +1,7 @@
 # HKBS Chinese Bible Extractor
 
+English | [中文](README.zh.md)
+
 This repository contains a small extractor for the HKBS online Bible pages and
 the extracted per-chapter JSON data used by the static reader.
 
