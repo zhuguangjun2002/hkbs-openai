@@ -29,11 +29,15 @@ Current deployed state as of 2026-05-17:
 
 - CUNP and RCUV Shen are available as selectable translations in the static web
   reader.
+- RCUV Shen Genesis 28 section headings are corrected: `以扫另娶一妻` is
+  attached to Genesis 28:6, matching the HKBS source page.
 - The extractor preserves source-level merged verse ranges with `verse_end`.
 - The extractor preserves duplicate source verse numbers with `sequence`.
 - Mid-verse headings from HKBS are not promoted into `section_headings`. For
   example, the source heading `爱` that appears after CUNP 1 Corinthians 12:31
   is not rendered before 12:31; the verse text remains complete.
+- Source HTML caching is supported through `--cache-source` and `--from-cache`,
+  so parser fixes can be rerun locally without downloading from HKBS again.
 
 The `data/cunp` directory contains a complete per-chapter extraction for both
 scripts:
