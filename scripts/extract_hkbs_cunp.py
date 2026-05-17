@@ -26,6 +26,7 @@ from urllib.request import Request, urlopen
 
 
 BASE_URL = "https://rcuv.hkbs.org.hk/{version}/{book}/{chapter}/"
+DEFAULT_SOURCE_CACHE = Path(".cache/hkbs-source")
 TRANSLATIONS = {
     "cunp": {
         "traditional": {
@@ -254,6 +255,31 @@ def fetch_html(url: str, timeout: int) -> str:
         return response.read().decode(charset, errors="replace")
 
 
+def source_cache_path(cache_root: Path, translation: str, script: str, code: str, chapter: int) -> Path:
+    return cache_root / translation / script / code / f"{chapter:03d}.html"
+
+
+def load_or_fetch_html(
+    url: str,
+    timeout: int,
+    cache_path: Path | None,
+    from_cache: bool,
+    cache_source: bool,
+) -> str:
+    if from_cache:
+        if cache_path is None:
+            raise ValueError("--from-cache requires --source-cache-dir")
+        if not cache_path.exists():
+            raise ValueError(f"missing source cache file: {cache_path}")
+        return cache_path.read_text(encoding="utf-8")
+
+    html_text = fetch_html(url, timeout)
+    if cache_source and cache_path is not None:
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+        cache_path.write_text(html_text, encoding="utf-8")
+    return html_text
+
+
 def parse_chapter(page_html: str, version_code: str) -> tuple[str, list[Verse]]:
     parser = ChapterParser()
     parser.feed(chapter_fragment(page_html, version_code))
@@ -293,14 +319,23 @@ def chapter_record(
     timeout: int,
     retries: int,
     retry_delay: float,
+    source_cache_dir: Path | None,
+    from_cache: bool,
+    cache_source: bool,
 ) -> dict:
     version = TRANSLATIONS[translation][script]
     version_code = version["code"]
     url = BASE_URL.format(version=version_code, book=code, chapter=chapter)
+    cache_path = (
+        source_cache_path(source_cache_dir, translation, script, code, chapter)
+        if source_cache_dir is not None
+        else None
+    )
     last_error: Exception | None = None
     for attempt in range(retries + 1):
         try:
-            heading, verses = parse_chapter(fetch_html(url, timeout), version_code)
+            page_html = load_or_fetch_html(url, timeout, cache_path, from_cache, cache_source)
+            heading, verses = parse_chapter(page_html, version_code)
             break
         except (HTTPError, URLError, TimeoutError, ValueError) as exc:
             last_error = exc
@@ -398,7 +433,8 @@ def run_job(
     if output and output.exists() and not args.force:
         return index, f"{label} skip existing {output}"
 
-    print(f"{label} fetch", file=sys.stderr)
+    action = "read cache" if args.from_cache else "fetch"
+    print(f"{label} {action}", file=sys.stderr)
     try:
         record = chapter_record(
             args.translation,
@@ -409,6 +445,9 @@ def run_job(
             args.timeout,
             args.retries,
             args.retry_delay,
+            args.source_cache_dir,
+            args.from_cache,
+            args.cache_source,
         )
     except (HTTPError, URLError, TimeoutError, ValueError) as exc:
         raise RuntimeError(f"{label} failed: {exc}") from exc
@@ -442,6 +481,22 @@ def main() -> int:
     parser.add_argument("--timeout", type=int, default=30)
     parser.add_argument("--format", choices=["json", "jsonl"], default="json")
     parser.add_argument("--output-dir", type=Path, help="write one file per chapter")
+    parser.add_argument(
+        "--source-cache-dir",
+        type=Path,
+        default=DEFAULT_SOURCE_CACHE,
+        help=f"source HTML cache directory; default: {DEFAULT_SOURCE_CACHE}",
+    )
+    parser.add_argument(
+        "--cache-source",
+        action="store_true",
+        help="save fetched source HTML to --source-cache-dir",
+    )
+    parser.add_argument(
+        "--from-cache",
+        action="store_true",
+        help="read source HTML from --source-cache-dir instead of fetching HKBS",
+    )
     parser.add_argument("--force", action="store_true", help="overwrite existing output files")
     args = parser.parse_args()
 
@@ -453,6 +508,8 @@ def main() -> int:
         parser.error("--chapter requires --book")
     if args.all and not args.output_dir:
         parser.error("--all requires --output-dir")
+    if args.from_cache and args.cache_source:
+        parser.error("--from-cache cannot be combined with --cache-source")
 
     targets = list(iter_targets(None if args.all else args.book, args.chapter))
     scripts = ["traditional", "simplified"] if args.script == "both" else [args.script]

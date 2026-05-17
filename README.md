@@ -177,6 +177,22 @@ Fetch all RCUV Shen books:
 python3 scripts/extract_hkbs_cunp.py --translation rcuv-shen --all --output-dir data/rcuv-shen --workers 12 --delay 0.05
 ```
 
+Save source HTML while fetching:
+
+```bash
+python3 scripts/extract_hkbs_cunp.py --translation rcuv-shen --all --output-dir data/rcuv-shen --workers 12 --delay 0.05 --force --cache-source
+```
+
+After source HTML has been cached under `.cache/hkbs-source`, parser changes can
+be applied without downloading from HKBS again:
+
+```bash
+python3 scripts/extract_hkbs_cunp.py --translation rcuv-shen --all --output-dir data/rcuv-shen --workers 12 --force --from-cache
+```
+
+The source cache is local and ignored by git. Use `--cache-source` only when the
+HKBS source pages should be refreshed.
+
 Use JSON Lines instead of nested chapter JSON:
 
 ```bash
