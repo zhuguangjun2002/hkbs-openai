@@ -33,6 +33,7 @@ https://rcuv.hkbs.org.hk/RCUV1s/GEN/1/
 - 不会把 HKBS 中出现在经节中段的标题提升进 `section_headings`。例如 CUNP 哥林多前书 12:31 之后出现的源标题 `爱` 不会渲染在 12:31 之前，经文文本保持完整。
 - 通过 `--cache-source` 和 `--from-cache` 支持源 HTML 缓存，本地调整解析器后无需重新从 HKBS 下载即可重跑。
 - 静态网页阅读器支持键盘切章：← 上一章，→ 下一章，可跨书自动衔接。
+- 本仓库提供英文 README（`README.md`）与中文 README（`README.zh.md`）两份文档，文件顶部互相链接。修改项目文档时请同步更新两份文件。
 
 `data/cunp` 目录包含两种字体的完整逐章抽取：
 

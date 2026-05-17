@@ -42,6 +42,8 @@ Current deployed state as of 2026-05-17:
   so parser fixes can be rerun locally without downloading from HKBS again.
 - The static web reader supports keyboard chapter navigation: left arrow for
   previous chapter, right arrow for next chapter, with cross-book wrap-around.
+- A Chinese translation of this README is available at `README.zh.md`, linked
+  from the top of each file. Update both files when changing project docs.
 
 The `data/cunp` directory contains a complete per-chapter extraction for both
 scripts:
