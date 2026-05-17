@@ -25,6 +25,17 @@ and are not included in this dataset.
 
 ## Data Status
 
+Current deployed state as of 2026-05-17:
+
+- CUNP data is available in the static web reader.
+- RCUV Shen data is extracted and committed, but is not yet exposed as a
+  selectable translation in the web reader.
+- The extractor preserves source-level merged verse ranges with `verse_end`.
+- The extractor preserves duplicate source verse numbers with `sequence`.
+- Mid-verse headings from HKBS are not promoted into `section_headings`. For
+  example, the source heading `爱` that appears after CUNP 1 Corinthians 12:31
+  is not rendered before 12:31; the verse text remains complete.
+
 The `data/cunp` directory contains a complete per-chapter extraction for both
 scripts:
 
@@ -109,7 +120,9 @@ the source reference intact while allowing unique lookup by
 ```
 
 `section_headings` preserves source headings that appear immediately before a
-verse, such as the short and long endings in RCUV Shen Mark 16.
+verse, such as the short and long endings in RCUV Shen Mark 16. Headings that
+appear after verse text has already started are treated as following-section
+markers and are not attached to the current verse.
 
 ## Usage
 
@@ -185,6 +198,7 @@ Features:
 
 - chapter reading by book and chapter
 - simplified/traditional switching
+- CUNP reading data bundled from `data/cunp`
 - full-text client-side search across simplified and traditional text
 - cross-script highlighting, such as searching `亞歷山大` while reading simplified text
 - search scopes: whole Bible, Old Testament, New Testament, or current book
@@ -213,6 +227,10 @@ http://localhost:8000/web/
 The site is deployed with GitHub Pages from `.github/workflows/pages.yml`.
 The workflow publishes the `web/` directory directly, so no npm install or
 build step is required.
+
+Next recommended web task: add a translation selector and include
+`data/rcuv-shen` in the browser data bundle so the live reader can switch
+between CUNP and RCUV Shen.
 
 ## Copyright
 
