@@ -187,7 +187,8 @@ class ChapterParser(HTMLParser):
                     self.current_end = int(match.group(2))
         elif self.in_verse_text:
             if self.pending_section_headings and self.current_num is not None:
-                self.current_section_headings.extend(self.pending_section_headings)
+                if not self.current_text:
+                    self.current_section_headings.extend(self.pending_section_headings)
                 self.pending_section_headings = []
             self.current_text.append(data)
 
