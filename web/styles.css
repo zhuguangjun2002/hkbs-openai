@@ -324,6 +324,12 @@ h2 {
   text-align: right;
 }
 
+.section-headings {
+  margin: 0 0 4px;
+  color: var(--accent-strong);
+  font: 700 15px/1.45 ui-sans-serif, system-ui, sans-serif;
+}
+
 .verse-notes {
   margin-top: 5px;
   color: var(--muted);

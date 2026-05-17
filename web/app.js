@@ -49,10 +49,44 @@
     return state.script === "simplified" ? "traditional" : "simplified";
   }
 
-  function pairedVerseText(bookCode, chapter, verseNumber) {
+  function pairedVerseText(bookCode, chapter, verse) {
     const pairedChapter = chapterData(bookCode, chapter, otherScript());
-    const pairedVerse = pairedChapter.verses.find((verse) => verse.n === verseNumber);
+    const pairedVerse = pairedChapter.verses.find((item) => (
+      item.n === verse.n && verseSequence(item) === verseSequence(verse)
+    )) || pairedChapter.verses.find((item) => item.n === verse.n);
     return pairedVerse ? pairedVerse.t : "";
+  }
+
+  function verseSequence(verse) {
+    return verse.seq || 1;
+  }
+
+  function verseEnd(verse) {
+    return verse.end || verse.n;
+  }
+
+  function verseLabel(verse) {
+    const label = verse.end && verse.end !== verse.n ? `${verse.n}-${verse.end}` : String(verse.n);
+    return verse.seq ? `${label}.${verse.seq}` : label;
+  }
+
+  function verseId(verse) {
+    return `v${verse.n}${verse.seq ? `-${verse.seq}` : ""}`;
+  }
+
+  function verseCoversNumber(verse, number) {
+    return verse.n <= number && number <= verseEnd(verse);
+  }
+
+  function verseOverlapsRange(verse, range) {
+    if (!range) return false;
+    if (range.sequence && verseSequence(verse) !== range.sequence) return false;
+    return verse.n <= range.end && verseEnd(verse) >= range.start;
+  }
+
+  function findVerseForRange(chapter, range) {
+    if (!range) return null;
+    return chapter.verses.find((verse) => verseOverlapsRange(verse, range)) || null;
   }
 
   function buildBookAliases() {
@@ -204,7 +238,7 @@
     const directRanges = matchRanges(verse.t, clean);
     if (directRanges.length) return highlightTextAtRanges(verse.t, directRanges);
 
-    const pairedText = pairedVerseText(bookCode, chapter, verse.n);
+    const pairedText = pairedVerseText(bookCode, chapter, verse);
     const pairedRanges = matchRanges(pairedText, clean)
       .filter((range) => range.end <= verse.t.length);
     return highlightTextAtRanges(verse.t, pairedRanges);
@@ -212,7 +246,7 @@
 
   function searchHit(bookCode, chapter, verse, query) {
     const displayText = verse.t;
-    const pairedText = pairedVerseText(bookCode, chapter, verse.n);
+    const pairedText = pairedVerseText(bookCode, chapter, verse);
     return displayText.includes(query) || pairedText.includes(query);
   }
 
@@ -263,11 +297,15 @@
       const notes = verse.notes.length
         ? `<div class="verse-notes">${verse.notes.map(escapeHtml).join("；")}</div>`
         : "";
-      const highlightClass = range && verse.n >= range.start && verse.n <= range.end ? " highlight" : "";
+      const headings = verse.heads && verse.heads.length
+        ? `<div class="section-headings">${verse.heads.map(escapeHtml).join(" / ")}</div>`
+        : "";
+      const highlightClass = verseOverlapsRange(verse, range) ? " highlight" : "";
       return `
-        <div class="verse${highlightClass}" id="v${verse.n}">
-          <span class="verse-number">${verse.n}</span>
+        <div class="verse${highlightClass}" id="${verseId(verse)}">
+          <span class="verse-number">${verseLabel(verse)}</span>
           <div>
+            ${headings}
             <span>${highlightVerseText(state.book, state.chapter, verse, state.activeSearch)}</span>
             ${notes}
           </div>
@@ -280,7 +318,10 @@
     saveState();
 
     if (range) {
-      document.getElementById(`v${range.start}`)?.scrollIntoView({ behavior: "smooth", block: "center" });
+      const target = findVerseForRange(chapter, range);
+      if (target) {
+        document.getElementById(verseId(target))?.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
     }
   }
 
@@ -297,8 +338,13 @@
     if (!range) return null;
     const start = Number(range.start || range.verse || range);
     const end = Number(range.end || start);
+    const sequence = Number(range.sequence || 0);
     if (!start) return null;
-    return { start: Math.min(start, end), end: Math.max(start, end) };
+    return {
+      start: Math.min(start, end),
+      end: Math.max(start, end),
+      sequence: sequence || null,
+    };
   }
 
   function goTo(bookCode, chapter, range, activeSearch = "") {
@@ -335,18 +381,20 @@
       .replace(/节/g, "")
       .replace(/節/g, "")
       .replace(/:$/, "");
-    const match = compact.match(/^(.+?)(\d+)(?::(\d+)(?:-(\d+))?)?$/);
+    const match = compact.match(/^(.+?)(\d+)(?::(\d+)(?:#(\d+))?(?:-(\d+))?)?$/);
     if (!match) return null;
     const name = match[1];
     const chapter = Number(match[2]);
     const verse = match[3] ? Number(match[3]) : null;
-    const endVerse = match[4] ? Number(match[4]) : verse;
+    const sequence = match[4] ? Number(match[4]) : null;
+    const endVerse = match[5] ? Number(match[5]) : verse;
     const book = bookAliases.get(name.toLowerCase());
     if (!book || chapter < 1 || chapter > book.chapters) return null;
     const chapterVerses = chapterData(book.code, chapter).verses;
-    const hasVerse = (number) => chapterVerses.some((item) => item.n === number);
-    if (verse && (!hasVerse(verse) || !hasVerse(endVerse))) return null;
-    return { book: book.code, chapter, verse, endVerse };
+    const hasVerse = (number) => chapterVerses.some((item) => verseCoversNumber(item, number));
+    const hasSequence = !sequence || chapterVerses.some((item) => item.n === verse && verseSequence(item) === sequence);
+    if (verse && (!hasVerse(verse) || !hasVerse(endVerse) || !hasSequence)) return null;
+    return { book: book.code, chapter, verse, endVerse, sequence };
   }
 
   function booksForSearch() {
@@ -383,9 +431,11 @@
     const ref = parseReference(query);
     if (ref) {
       els.searchMeta.textContent = "识别为经文引用";
-      const verseLabel = ref.verse ? `:${ref.verse}${ref.endVerse && ref.endVerse !== ref.verse ? `-${ref.endVerse}` : ""}` : "";
-      els.searchResults.innerHTML = `<button class="result-item" type="button" data-book="${ref.book}" data-chapter="${ref.chapter}" data-verse="${ref.verse || ""}" data-end-verse="${ref.endVerse || ""}">
-        <span class="result-ref">${bookName(bookByCode.get(ref.book))} ${ref.chapter}${verseLabel}</span>
+      const refSequence = ref.sequence ? `#${ref.sequence}` : "";
+      const refEnd = ref.endVerse && ref.endVerse !== ref.verse ? `-${ref.endVerse}` : "";
+      const verseRefLabel = ref.verse ? `:${ref.verse}${refSequence}${refEnd}` : "";
+      els.searchResults.innerHTML = `<button class="result-item" type="button" data-book="${ref.book}" data-chapter="${ref.chapter}" data-verse="${ref.verse || ""}" data-end-verse="${ref.endVerse || ""}" data-sequence="${ref.sequence || ""}">
+        <span class="result-ref">${bookName(bookByCode.get(ref.book))} ${ref.chapter}${verseRefLabel}</span>
         <span class="result-text">打开这一处经文</span>
       </button>`;
       return;
@@ -395,8 +445,8 @@
     const scopeLabel = searchScopeLabels[state.searchScope];
     els.searchMeta.textContent = results.length ? `${scopeLabel}：显示前 ${results.length} 条结果` : `${scopeLabel}：没有找到匹配经文`;
     els.searchResults.innerHTML = results.map(({ book, chapter, verse }) => `
-      <button class="result-item" type="button" data-book="${book.code}" data-chapter="${chapter}" data-verse="${verse.n}" data-search-query="${escapeHtml(query)}">
-        <span class="result-ref">${bookName(book)} ${chapter}:${verse.n}</span>
+      <button class="result-item" type="button" data-book="${book.code}" data-chapter="${chapter}" data-verse="${verse.n}" data-end-verse="${verseEnd(verse)}" data-sequence="${verse.seq || ""}" data-search-query="${escapeHtml(query)}">
+        <span class="result-ref">${bookName(book)} ${chapter}:${verseLabel(verse)}</span>
         <span class="result-text">${highlightVerseText(book.code, chapter, verse, query)}</span>
       </button>
     `).join("");
@@ -457,7 +507,7 @@
     const ref = parseReference(els.searchInput.value);
     if (!ref) return;
     event.preventDefault();
-    goTo(ref.book, ref.chapter, { start: ref.verse, end: ref.endVerse });
+    goTo(ref.book, ref.chapter, { start: ref.verse, end: ref.endVerse, sequence: ref.sequence });
   });
 
   els.searchResults.addEventListener("click", (event) => {
@@ -467,6 +517,7 @@
     goTo(button.dataset.book, Number(button.dataset.chapter), {
       start: Number(button.dataset.verse || 0),
       end: Number(button.dataset.endVerse || button.dataset.verse || 0),
+      sequence: Number(button.dataset.sequence || 0),
     }, activeSearch);
   });
 

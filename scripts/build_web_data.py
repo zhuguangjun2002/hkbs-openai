@@ -20,15 +20,23 @@ def load_chapter(script: str, code: str, chapter: int) -> dict:
         record = json.load(handle)
     return {
         "heading": record.get("heading", ""),
-        "verses": [
-            {
-                "n": verse["verse"],
-                "t": verse["text"],
-                "notes": verse.get("notes", []),
-            }
-            for verse in record["verses"]
-        ],
+        "verses": [web_verse(verse) for verse in record["verses"]],
     }
+
+
+def web_verse(verse: dict) -> dict:
+    item = {
+        "n": verse["verse"],
+        "t": verse["text"],
+        "notes": verse.get("notes", []),
+    }
+    if "verse_end" in verse:
+        item["end"] = verse["verse_end"]
+    if "sequence" in verse:
+        item["seq"] = verse["sequence"]
+    if "section_headings" in verse:
+        item["heads"] = verse["section_headings"]
+    return item
 
 
 def main() -> None:
